@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { ChevronRight, ArrowLeft, BookOpen } from "lucide-react";
-import { getSubjectChapters, getChapterTips } from "@/lib/api";
+import { getSubjectChapters } from "@/lib/api";
 import { getSubjectDisplayName, getSubjectIcon, getSubjectColor } from "@/lib/subjects";
+import { loadProgress } from "@/lib/progress";
 import ChapterCard from "@/components/ChapterCard";
 import LoadingSkeleton from "@/components/LoadingSkeleton";
 import ErrorState from "@/components/ErrorState";
@@ -17,52 +18,46 @@ export default function SubjectPage() {
   const subject = params.subject;
 
   const [chaptersData, setChaptersData] = useState<SubjectChaptersData | null>(null);
-  const [tipsMap, setTipsMap] = useState<Record<string, boolean>>({});
+  const [completedIds, setCompletedIds] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Load completion state from localStorage
   useEffect(() => {
-    async function load() {
-      if (!classId || !subject) return;
-      setLoading(true);
-      setError(null);
-      try {
-        const res = await getSubjectChapters(classId, subject);
-        if (res.success && res.data) {
-          setChaptersData(res.data);
-
-          // Check which chapters have tips
-          const tips: Record<string, boolean> = {};
-          await Promise.all(
-            res.data.chapters.map(async (ch) => {
-              try {
-                const tipRes = await getChapterTips(classId, subject, ch.id);
-                tips[ch.id] = tipRes.success && tipRes.data && tipRes.data.count > 0;
-              } catch {
-                tips[ch.id] = false;
-              }
-            })
-          );
-          setTipsMap(tips);
-        } else {
-          setError("Failed to load chapters");
-        }
-      } catch (err) {
-        setError(err instanceof Error ? err.message : "Failed to load subject data");
-      } finally {
-        setLoading(false);
-      }
-    }
-    load();
+    if (!classId || !subject) return;
+    const p = loadProgress();
+    const ids = new Set(
+      p.completedGuides
+        .filter((g) => g.startsWith(`${classId}:${subject}:`))
+        .map((g) => g.split(":")[2])
+    );
+    setCompletedIds(ids);
   }, [classId, subject]);
+
+  const load = useCallback(async () => {
+    if (!classId || !subject) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await getSubjectChapters(classId, subject);
+      if (res.success && res.data) {
+        setChaptersData(res.data);
+      } else {
+        setError("Failed to load chapters");
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to load subject data");
+    } finally {
+      setLoading(false);
+    }
+  }, [classId, subject]);
+
+  useEffect(() => { load(); }, [load]);
 
   const displayName = getSubjectDisplayName(subject);
   const icon = getSubjectIcon(subject);
   const color = getSubjectColor(subject);
-
-  const handleStartWalkthrough = (chapterId: string) => {
-    router.push(`/walkthrough/${classId}/${subject}/${chapterId}`);
-  };
+  const completedCount = completedIds.size;
 
   return (
     <div className="animate-fade-in">
@@ -79,21 +74,13 @@ export default function SubjectPage() {
 
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
-        <div
-          className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shrink-0"
-          style={{ backgroundColor: color.bg }}
-        >
+        <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shrink-0" style={{ backgroundColor: color.bg }}>
           {icon}
         </div>
         <div>
-          <h1
-            className="text-xl sm:text-2xl font-bold"
-            style={{ color: color.primary }}
-          >
-            {displayName}
-          </h1>
+          <h1 className="text-xl sm:text-2xl font-bold" style={{ color: color.primary }}>{displayName}</h1>
           <p className="text-xs sm:text-sm text-muted">
-            Class {classId} · {chaptersData?.totalChapters || "…"} chapters
+            Class {classId} · {completedCount}/{chaptersData?.totalChapters || "…"} completed
           </p>
         </div>
       </div>
@@ -101,17 +88,18 @@ export default function SubjectPage() {
       {loading ? (
         <LoadingSkeleton type="list" count={6} />
       ) : error ? (
-        <ErrorState message={error} onRetry={() => window.location.reload()} />
+        <ErrorState message={error} onRetry={load} />
       ) : chaptersData && chaptersData.chapters.length > 0 ? (
         <div className="space-y-3">
           {chaptersData.chapters.map((chapter) => (
             <ChapterCard
               key={chapter.id}
               chapter={chapter}
-              hasTips={tipsMap[chapter.id] || false}
-              onStartWalkthrough={() => handleStartWalkthrough(chapter.id)}
+              hasTips={true}
+              isCompleted={completedIds.has(chapter.id)}
+              onStart={() => router.push(`/guide/${classId}/${subject}/${chapter.id}`)}
             />
-           ))}
+          ))}
         </div>
       ) : (
         <div className="card text-center py-12 text-muted">

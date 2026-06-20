@@ -249,6 +249,7 @@ export default function DashboardPage() {
                   name={subject}
                   classId={selectedClass}
                   totalChapters={subjectChapterCounts[subject] || 0}
+                  completedChapters={getSubjectCompletedCount(selectedClass, subject)}
                 />
               ))}
             </div>

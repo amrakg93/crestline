@@ -56,18 +56,21 @@ export default function LandingPage() {
           color="#22d3ee"
           title="Concept-First Walkthroughs"
           description="Prerequisite-aware learning paths that build understanding from first principles — not rote memorisation."
+          href="/dashboard"
         />
         <FeatureCard
           icon={<Lightbulb className="w-5 h-5" />}
           color="#a855f7"
           title="Expert Tips & Tricks"
           description="Time-saving shortcuts and common pitfalls — exactly what top students know that others don't."
+          href="/dashboard"
         />
         <FeatureCard
           icon={<Zap className="w-5 h-5" />}
           color="#f59e0b"
           title="Track Your Progress"
           description="Earn streaks and badges as you work through topics. See exactly how far you've come."
+          href="/dashboard"
         />
       </section>
     </div>
@@ -75,23 +78,24 @@ export default function LandingPage() {
 }
 
 function FeatureCard({
-  icon, color, title, description,
+  icon, color, title, description, href,
 }: {
   icon: React.ReactNode;
   color: string;
   title: string;
   description: string;
+  href: string;
 }) {
   return (
-    <div className="card text-left hover:border-accent/20 transition-all duration-300 group">
+    <Link href={href} className="card text-left hover:border-accent/20 hover:-translate-y-0.5 transition-all duration-300 group cursor-pointer block">
       <div
         className="w-10 h-10 rounded-2xl flex items-center justify-center mb-4 transition-all duration-200 group-hover:scale-110"
         style={{ backgroundColor: `${color}22`, color }}
       >
         {icon}
       </div>
-      <h3 className="text-sm font-bold text-foreground mb-2">{title}</h3>
+      <h3 className="text-sm font-bold text-foreground mb-2 group-hover:text-accent transition-colors duration-200">{title}</h3>
       <p className="text-xs text-muted leading-relaxed">{description}</p>
-    </div>
+    </Link>
   );
 }

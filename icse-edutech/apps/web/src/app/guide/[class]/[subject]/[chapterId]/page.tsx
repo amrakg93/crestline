@@ -2,14 +2,17 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ChevronRight, ArrowLeft, BookOpen, Lightbulb, ListChecks, CheckCircle2, Circle } from "lucide-react";
-import { getChapterGuide } from "@/lib/api";
+import {
+  ChevronRight, ArrowLeft, ArrowRight, BookOpen, Lightbulb,
+  ListChecks, CheckCircle2, Circle, ChevronLeft
+} from "lucide-react";
+import { getChapterGuide, getSubjectChapters } from "@/lib/api";
 import { getSubjectDisplayName } from "@/lib/subjects";
 import { markGuideComplete, isGuideComplete } from "@/lib/progress";
 import TipCard from "@/components/TipCard";
 import LoadingSkeleton from "@/components/LoadingSkeleton";
 import ErrorState from "@/components/ErrorState";
-import type { GuideData } from "@/lib/types";
+import type { GuideData, Chapter } from "@/lib/types";
 
 export default function GuidePage() {
   const params = useParams<{ class: string; subject: string; chapterId: string }>();
@@ -19,6 +22,7 @@ export default function GuidePage() {
   const chapterId = params.chapterId;
 
   const [guide, setGuide] = useState<GuideData | null>(null);
+  const [chapters, setChapters] = useState<Chapter[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [completed, setCompleted] = useState(false);
@@ -30,6 +34,7 @@ export default function GuidePage() {
     }
   }, [classId, subject, chapterId]);
 
+  // Load guide content
   useEffect(() => {
     async function load() {
       if (!classId || !subject || !chapterId) return;
@@ -37,11 +42,8 @@ export default function GuidePage() {
       setError(null);
       try {
         const res = await getChapterGuide(classId, subject, chapterId);
-        if (res.success && res.data) {
-          setGuide(res.data);
-        } else {
-          setError("Failed to load guide data");
-        }
+        if (res.success && res.data) setGuide(res.data);
+        else setError("Failed to load guide data");
       } catch (err) {
         setError(err instanceof Error ? err.message : "Failed to load guide");
       } finally {
@@ -50,6 +52,14 @@ export default function GuidePage() {
     }
     load();
   }, [classId, subject, chapterId]);
+
+  // Load chapter list for prev/next
+  useEffect(() => {
+    if (!classId || !subject) return;
+    getSubjectChapters(classId, subject)
+      .then((res) => { if (res.success && res.data) setChapters(res.data.chapters); })
+      .catch(() => {});
+  }, [classId, subject]);
 
   function handleMarkComplete() {
     if (!classId || !subject || !chapterId) return;
@@ -61,6 +71,14 @@ export default function GuidePage() {
 
   const displaySubject = getSubjectDisplayName(subject);
   const chapterName = guide?.chapter?.name || chapterId.replace(/_/g, " ");
+
+  const currentIdx = chapters.findIndex((c) => c.id === chapterId);
+  const prevChapter = currentIdx > 0 ? chapters[currentIdx - 1] : null;
+  const nextChapter = currentIdx >= 0 && currentIdx < chapters.length - 1 ? chapters[currentIdx + 1] : null;
+
+  function goToChapter(ch: Chapter) {
+    router.push(`/guide/${classId}/${subject}/${ch.id}`);
+  }
 
   return (
     <div className="animate-fade-in max-w-2xl mx-auto">
@@ -85,10 +103,9 @@ export default function GuidePage() {
         <ErrorState message={error} onRetry={() => window.location.reload()} />
       ) : guide ? (
         <>
-          {/* Title */}
+          {/* Title row */}
           <div className="flex items-start justify-between gap-3 mb-1">
             <h1 className="text-xl sm:text-2xl font-bold text-foreground">{chapterName}</h1>
-            {/* Mark Complete button */}
             <button
               onClick={handleMarkComplete}
               disabled={completed}
@@ -110,7 +127,7 @@ export default function GuidePage() {
             Chapter {guide.chapter.no} &bull; Class {classId} &bull; {displaySubject}
           </p>
 
-          {/* Theory Section */}
+          {/* Theory */}
           <section className="mb-8">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-9 h-9 rounded-xl bg-blue-500/15 flex items-center justify-center">
@@ -187,7 +204,7 @@ export default function GuidePage() {
             )}
           </section>
 
-          {/* Tips Section */}
+          {/* Tips */}
           {guide.tips && guide.tips.length > 0 && (
             <section className="mb-8">
               <div className="flex items-center gap-3 mb-3">
@@ -206,7 +223,7 @@ export default function GuidePage() {
             </section>
           )}
 
-          {/* Practice MCQ Section */}
+          {/* Practice MCQs */}
           <section className="mb-8">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-9 h-9 rounded-xl bg-purple-500/15 flex items-center justify-center">
@@ -224,6 +241,41 @@ export default function GuidePage() {
               </span>
             </div>
           </section>
+
+          {/* Prev / Next chapter navigation */}
+          {(prevChapter || nextChapter) && (
+            <div className="flex gap-3 mt-2 mb-8">
+              {prevChapter ? (
+                <button
+                  onClick={() => goToChapter(prevChapter)}
+                  className="flex-1 card hover:border-accent/25 hover:-translate-y-px transition-all duration-200 text-left p-3 group"
+                >
+                  <div className="flex items-center gap-1.5 text-[10px] text-muted mb-1">
+                    <ChevronLeft className="w-3 h-3" />
+                    Previous
+                  </div>
+                  <p className="text-xs font-semibold text-foreground leading-snug line-clamp-2 group-hover:text-accent transition-colors">
+                    {prevChapter.name}
+                  </p>
+                </button>
+              ) : <div className="flex-1" />}
+
+              {nextChapter ? (
+                <button
+                  onClick={() => goToChapter(nextChapter)}
+                  className="flex-1 card hover:border-accent/25 hover:-translate-y-px transition-all duration-200 text-right p-3 group"
+                >
+                  <div className="flex items-center justify-end gap-1.5 text-[10px] text-muted mb-1">
+                    Next
+                    <ChevronRight className="w-3 h-3" />
+                  </div>
+                  <p className="text-xs font-semibold text-foreground leading-snug line-clamp-2 group-hover:text-accent transition-colors">
+                    {nextChapter.name}
+                  </p>
+                </button>
+              ) : <div className="flex-1" />}
+            </div>
+          )}
         </>
       ) : (
         <div className="card text-center py-12 text-muted">
