@@ -1,5 +1,7 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
+import path from 'path';
+import fs from 'fs';
 import {
   getClassSyllabus,
   getSubjectChapters,
@@ -13,6 +15,11 @@ const router = Router();
 
 // Load syllabus data at startup (ensure it's ready)
 loadSyllabus();
+
+// Load chapter examples (worked examples + diagrams)
+const examplesPath = path.join(__dirname, '../data/chapter-examples.json');
+const chapterExamples: Record<string, { worked_examples: unknown[]; diagrams: unknown[] }> =
+  fs.existsSync(examplesPath) ? JSON.parse(fs.readFileSync(examplesPath, 'utf-8')) : {};
 
 // Validation schemas
 const classParamSchema = z.object({
@@ -79,6 +86,7 @@ router.get('/guide/:class/:subject/:chapterId', (req: Request, res: Response, ne
         key_concepts: guide.content?.key_concepts,
         laws_and_formulas: guide.content?.laws_and_formulas,
         key_points: guide.content?.key_points,
+        ...(chapterExamples[`${classLevel}|${subject}|${chapterId}`] ?? {}),
       },
     });
   } catch (err) {

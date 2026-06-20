@@ -35,6 +35,19 @@ export interface LawOrFormula {
   statement?: string;
 }
 
+export interface WorkedExample {
+  title: string;
+  problem: string;
+  steps: string[];
+  answer: string;
+}
+
+export interface Diagram {
+  title: string;
+  type: "ascii" | "table" | "steps";
+  content: string;
+}
+
 export interface GuideData {
   classLevel: string;
   subject: string;
@@ -45,6 +58,8 @@ export interface GuideData {
   key_concepts?: KeyConcept[];
   laws_and_formulas?: LawOrFormula[];
   key_points?: string[];
+  worked_examples?: WorkedExample[];
+  diagrams?: Diagram[];
 }
 
 export interface GuideTip {
