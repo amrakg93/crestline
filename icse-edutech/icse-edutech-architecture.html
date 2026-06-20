@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICSE Edutech Platform — India-Scale Architecture</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: #020617;
+      min-height: 100vh;
+      padding: 2rem;
+      color: white;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+    .header { margin-bottom: 2rem; }
+    .header-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+    .pulse-dot { width: 12px; height: 12px; background: #22d3ee; border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-left: 1.75rem; }
+    .diagram-container {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 1rem;
+      border: 1px solid #1e293b;
+      padding: 1.5rem;
+      overflow-x: auto;
+    }
+    svg { width: 100%; min-width: 1200px; display: block; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 0.75rem;
+      border: 1px solid #1e293b;
+      padding: 1.25rem;
+    }
+    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .card-dot.cyan { background: #22d3ee; }
+    .card-dot.emerald { background: #34d399; }
+    .card-dot.violet { background: #a78bfa; }
+    .card-dot.amber { background: #fbbf24; }
+    .card-dot.rose { background: #fb7185; }
+    .card-dot.orange { background: #fb923c; }
+    .card h3 { font-size: 0.875rem; font-weight: 600; }
+    .card ul { list-style: none; color: #94a3b8; font-size: 0.75rem; }
+    .card li { margin-bottom: 0.375rem; }
+    .footer { text-align: center; margin-top: 1.5rem; color: #475569; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-row">
+        <div class="pulse-dot"></div>
+        <h1>ICSE Edutech Platform — India-Scale Architecture</h1>
+      </div>
+      <p class="subtitle">B.L.U.E. System adapted for ICSE Class 8–10 • 5M+ Concurrent • 99.95% SLA • Multi-Region India</p>
+    </div>
+
+    <div class="diagram-container">
+      <svg viewBox="0 0 1280 1050">
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+          </marker>
+          <marker id="arrow-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee" />
+          </marker>
+          <marker id="arrow-emerald" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#34d399" />
+          </marker>
+          <marker id="arrow-amber" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#fbbf24" />
+          </marker>
+          <marker id="arrow-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#fb7185" />
+          </marker>
+          <marker id="arrow-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa" />
+          </marker>
+          <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#fb923c" />
+          </marker>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+
+        <rect width="100%" height="100%" fill="url(#grid)" />
+
+        <!-- ═══════════════════════════════════════════════════════════
+             EXTERNAL USERS
+             ════════════════════════════════════════════════════════ -->
+        <rect x="30" y="130" width="100" height="55" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="80" y="152" fill="white" font-size="11" font-weight="600" text-anchor="middle">Students</text>
+        <text x="80" y="168" fill="#94a3b8" font-size="9" text-anchor="middle">Web + Mobile</text>
+
+        <!-- ═══════════════════════════════════════════════════════════
+             GLOBAL EDGE LAYER
+             ════════════════════════════════════════════════════════ -->
+        <rect x="180" y="30" width="1070" height="90" rx="10" fill="rgba(251, 191, 36, 0.04)" stroke="#fbbf24" stroke-width="0.8" stroke-dasharray="6,3"/>
+        <text x="195" y="48" fill="#fbbf24" font-size="9" font-weight="600">EDGE LAYER — India PoPs: Mumbai · Delhi · Chennai · Hyderabad · Bangalore · Kolkata</text>
+
+        <!-- CloudFront -->
+        <rect x="200" y="58" width="130" height="48" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="265" y="78" fill="white" font-size="11" font-weight="600" text-anchor="middle">CloudFront CDN</text>
+        <text x="265" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">TTL 300s · Gzip/Brotli</text>
+
+        <!-- WAF + Shield -->
+        <rect x="370" y="58" width="150" height="48" rx="6" fill="rgba(136, 19, 55, 0.3)" stroke="#fb7185" stroke-width="1.5"/>
+        <text x="445" y="78" fill="white" font-size="11" font-weight="600" text-anchor="middle">WAF + Shield Adv.</text>
+        <text x="445" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">DDoS · Rate Limit · OWASP</text>
+
+        <!-- Route 53 -->
+        <rect x="560" y="58" width="120" height="48" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="620" y="78" fill="white" font-size="11" font-weight="600" text-anchor="middle">Route 53</text>
+        <text x="620" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">Latency-based</text>
+
+        <!-- PWA Service Worker -->
+        <rect x="720" y="58" width="140" height="48" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+        <text x="790" y="78" fill="white" font-size="11" font-weight="600" text-anchor="middle">PWA Offline Cache</text>
+        <text x="790" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">Workbox · IndexedDB</text>
+
+        <!-- Arrows: Users → Edge -->
+        <line x1="130" y1="157" x2="198" y2="82" stroke="#94a3b8" stroke-width="1.2" marker-end="url(#arrowhead)"/>
+        <text x="155" y="115" fill="#64748b" font-size="7">HTTPS</text>
+
+        <!-- ═══════════════════════════════════════════════════════════
+             AWS REGION: ap-south-1 (MUMBAI) — PRIMARY
+             ════════════════════════════════════════════════════════ -->
+        <rect x="180" y="140" width="1070" height="460" rx="12" fill="rgba(34, 211, 238, 0.02)" stroke="#22d3ee" stroke-width="1.2" stroke-dasharray="10,5"/>
+        <text x="195" y="158" fill="#22d3ee" font-size="10" font-weight="600">AWS ap-south-1 (Mumbai) — PRIMARY · Multi-AZ (ap-south-1a / 1b / 1c)</text>
+
+        <!-- ALB -->
+        <rect x="210" y="172" width="160" height="50" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="290" y="192" fill="white" font-size="11" font-weight="600" text-anchor="middle">Application LB</text>
+        <text x="290" y="208" fill="#94a3b8" font-size="8" text-anchor="middle">HTTPS :443 · HTTP/2</text>
+
+        <!-- VPC Security Boundary -->
+        <rect x="210" y="240" width="1020" height="345" rx="8" fill="transparent" stroke="#fb7185" stroke-width="0.8" stroke-dasharray="4,4"/>
+        <text x="220" y="255" fill="#fb7185" font-size="8">VPC: 10.0.0.0/16 — Private Subnets</text>
+
+        <!-- ═══════════════════ MICROSERVICE TIER ═══════════════════ -->
+        <!-- Row 1: Core Learning Services -->
+        <rect x="230" y="272" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="320" y="294" fill="white" font-size="11" font-weight="600" text-anchor="middle">Content Service</text>
+        <text x="320" y="310" fill="#94a3b8" font-size="8" text-anchor="middle">Guide CRUD · Syllabus Map</text>
+        <text x="320" y="324" fill="#94a3b8" font-size="8" text-anchor="middle">Node.js · HPA: 30–150 pods</text>
+
+        <rect x="440" y="272" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="530" y="294" fill="white" font-size="11" font-weight="600" text-anchor="middle">Graph Engine</text>
+        <text x="530" y="310" fill="#94a3b8" font-size="8" text-anchor="middle">Prerequisite DAG · Neo4j</text>
+        <text x="530" y="324" fill="#94a3b8" font-size="8" text-anchor="middle">Go · gRPC · HPA: 10–60 pods</text>
+
+        <rect x="650" y="272" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="740" y="294" fill="white" font-size="11" font-weight="600" text-anchor="middle">Walkthrough Engine</text>
+        <text x="740" y="310" fill="#94a3b8" font-size="8" text-anchor="middle">Personalized Path Gen</text>
+        <text x="740" y="324" fill="#94a3b8" font-size="8" text-anchor="middle">Go · HPA: 20–80 pods</text>
+
+        <rect x="860" y="272" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="950" y="294" fill="white" font-size="11" font-weight="600" text-anchor="middle">Assessment Engine</text>
+        <text x="950" y="310" fill="#94a3b8" font-size="8" text-anchor="middle">Mock Tests · Quiz · Grading</text>
+        <text x="950" y="324" fill="#94a3b8" font-size="8" text-anchor="middle">Python · HPA: 15–50 pods</text>
+
+        <!-- Row 2: Platform Services -->
+        <rect x="230" y="356" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="320" y="378" fill="white" font-size="11" font-weight="600" text-anchor="middle">Auth Service</text>
+        <text x="320" y="394" fill="#94a3b8" font-size="8" text-anchor="middle">OTP · JWT · Refresh Tokens</text>
+        <text x="320" y="408" fill="#94a3b8" font-size="8" text-anchor="middle">Node.js · HPA: 10–40 pods</text>
+
+        <rect x="440" y="356" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="530" y="378" fill="white" font-size="11" font-weight="600" text-anchor="middle">Progress Tracker</text>
+        <text x="530" y="394" fill="#94a3b8" font-size="8" text-anchor="middle">Streaks · Badges · Mastery</text>
+        <text x="530" y="408" fill="#94a3b8" font-size="8" text-anchor="middle">Node.js · HPA: 10–30 pods</text>
+
+        <rect x="650" y="356" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="740" y="378" fill="white" font-size="11" font-weight="600" text-anchor="middle">Payment Service</text>
+        <text x="740" y="394" fill="#94a3b8" font-size="8" text-anchor="middle">Razorpay · UPI · Subscriptions</text>
+        <text x="740" y="408" fill="#94a3b8" font-size="8" text-anchor="middle">Node.js · HPA: 5–20 pods</text>
+
+        <rect x="860" y="356" width="180" height="62" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="950" y="378" fill="white" font-size="11" font-weight="600" text-anchor="middle">Notification Svc</text>
+        <text x="950" y="394" fill="#94a3b8" font-size="8" text-anchor="middle">Push · SMS · Email · WhatsApp</text>
+        <text x="950" y="408" fill="#94a3b8" font-size="8" text-anchor="middle">Node.js · HPA: 5–20 pods</text>
+
+        <!-- Row 3: Search + Media -->
+        <rect x="230" y="440" width="180" height="55" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="320" y="461" fill="white" font-size="11" font-weight="600" text-anchor="middle">Search Service</text>
+        <text x="320" y="477" fill="#94a3b8" font-size="8" text-anchor="middle">Full-text · Hindi/English</text>
+        <text x="320" y="489" fill="#94a3b8" font-size="8" text-anchor="middle">Elasticsearch proxy</text>
+
+        <rect x="440" y="440" width="180" height="55" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="530" y="461" fill="white" font-size="11" font-weight="600" text-anchor="middle">Media Service</text>
+        <text x="530" y="477" fill="#94a3b8" font-size="8" text-anchor="middle">Video Transcoding · Thumbnails</text>
+        <text x="530" y="489" fill="#94a3b8" font-size="8" text-anchor="middle">FFmpeg · HPA: 3–15 pods</text>
+
+        <!-- EKS Label -->
+        <text x="680" y="465" fill="#fbbf24" font-size="8">EKS (Kubernetes) — Cluster Autoscaler · Karpenter · Istio Service Mesh</text>
+
+        <!-- ═══════════════════ ARROWS: Between Services ═══════════════════ -->
+        <line x1="410" y1="303" x2="438" y2="303" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+        <line x1="620" y1="303" x2="648" y2="303" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+        <line x1="830" y1="303" x2="858" y2="303" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+
+        <line x1="320" y1="334" x2="320" y2="354" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+        <line x1="530" y1="334" x2="530" y2="354" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+        <line x1="740" y1="334" x2="740" y2="354" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+        <line x1="950" y1="334" x2="950" y2="354" stroke="#34d399" stroke-width="1" marker-end="url(#arrow-emerald)"/>
+
+        <!-- ALB → Services -->
+        <path d="M 290 222 L 290 240 L 320 240 L 320 270" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#arrow-amber)"/>
+        <path d="M 290 222 L 290 240 L 530 240 L 530 270" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#arrow-amber)"/>
+        <path d="M 290 222 L 290 240 L 740 240 L 740 270" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#arrow-amber)"/>
+        <path d="M 290 222 L 290 240 L 950 240 L 950 270" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#arrow-amber)"/>
+
+        <!-- ═══════════════════ DATA TIER ═══════════════════ -->
+        <rect x="210" y="520" width="1020" height="68" rx="8" fill="rgba(76, 29, 149, 0.04)" stroke="#a78bfa" stroke-width="0.5" stroke-dasharray="3,3"/>
+        <text x="220" y="535" fill="#a78bfa" font-size="8">DATA TIER</text>
+
+        <!-- RDS PostgreSQL -->
+        <rect x="230" y="542" width="160" height="40" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="310" y="558" fill="white" font-size="10" font-weight="600" text-anchor="middle">RDS PostgreSQL</text>
+        <text x="310" y="574" fill="#94a3b8" font-size="8" text-anchor="middle">Multi-AZ · 16 vCPU · 64GB</text>
+
+        <!-- ElastiCache Redis -->
+        <rect x="420" y="542" width="160" height="40" rx="6" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1.5"/>
+        <text x="500" y="558" fill="white" font-size="10" font-weight="600" text-anchor="middle">ElastiCache Redis</text>
+        <text x="500" y="574" fill="#94a3b8" font-size="8" text-anchor="middle">Cluster · Session · Cache</text>
+
+        <!-- S3 -->
+        <rect x="610" y="542" width="160" height="40" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="690" y="558" fill="white" font-size="10" font-weight="600" text-anchor="middle">S3 (Content)</text>
+        <text x="690" y="574" fill="#94a3b8" font-size="8" text-anchor="middle">Videos · PDFs · Images</text>
+
+        <!-- Elasticsearch -->
+        <rect x="800" y="542" width="160" height="40" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="880" y="558" fill="white" font-size="10" font-weight="600" text-anchor="middle">Elasticsearch</text>
+        <text x="880" y="574" fill="#94a3b8" font-size="8" text-anchor="middle">Full-text · Hindi stemmer</text>
+
+        <!-- Neo4j -->
+        <rect x="990" y="542" width="130" height="40" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="1055" y="558" fill="white" font-size="10" font-weight="600" text-anchor="middle">Neo4j Aura</text>
+        <text x="1055" y="574" fill="#94a3b8" font-size="8" text-anchor="middle">Prereq Graph</text>
+
+        <!-- Service → Data arrows -->
+        <line x1="310" y1="418" x2="310" y2="540" stroke="#a78bfa" stroke-width="1" marker-end="url(#arrow-violet)"/>
+        <line x1="500" y1="418" x2="500" y2="540" stroke="#fb923c" stroke-width="1" marker-end="url(#arrow-orange)"/>
+        <line x1="690" y1="418" x2="690" y2="540" stroke="#fbbf24" stroke-width="1" marker-end="url(#arrow-amber)"/>
+        <line x1="880" y1="418" x2="880" y2="540" stroke="#a78bfa" stroke-width="1" marker-end="url(#arrow-violet)"/>
+        <line x1="1055" y1="418" x2="1055" y2="540" stroke="#a78bfa" stroke-width="1" marker-end="url(#arrow-violet)"/>
+
+        <!-- ═══════════════════ EVENT / MESSAGE BUS ═══════════════════ -->
+        <rect x="230" y="510" width="550" height="14" rx="4" fill="rgba(251, 146, 60, 0.15)" stroke="#fb923c" stroke-width="0.8"/>
+        <text x="505" y="521" fill="#fb923c" font-size="7" font-weight="600" text-anchor="middle">SQS · SNS · EventBridge — Async Event Bus (Content Updates · Notification Fanout · Audit Trail)</text>
+
+        <!-- Services → Event Bus -->
+        <line x1="320" y1="418" x2="320" y2="508" stroke="#fb923c" stroke-width="0.8" marker-end="url(#arrow-orange)"/>
+        <line x1="530" y1="418" x2="530" y2="508" stroke="#fb923c" stroke-width="0.8" marker-end="url(#arrow-orange)"/>
+        <line x1="740" y1="418" x2="740" y2="508" stroke="#fb923c" stroke-width="0.8" marker-end="url(#arrow-orange)"/>
+
+        <!-- ═══════════════════════════════════════════════════════════
+             AWS REGION: ap-south-2 (HYDERABAD) — DR / READ REPLICAS
+             ════════════════════════════════════════════════════════ -->
+        <rect x="180" y="615" width="1070" height="155" rx="12" fill="rgba(251, 191, 36, 0.02)" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="8,4"/>
+        <text x="195" y="633" fill="#fbbf24" font-size="10" font-weight="600">AWS ap-south-2 (Hyderabad) — DISASTER RECOVERY · Warm Standby</text>
+
+        <!-- DR Services -->
+        <rect x="230" y="648" width="170" height="45" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="315" y="667" fill="white" font-size="10" font-weight="600" text-anchor="middle">RDS Read Replica</text>
+        <text x="315" y="683" fill="#94a3b8" font-size="8" text-anchor="middle">async replication · &lt;1s lag</text>
+
+        <rect x="430" y="648" width="170" height="45" rx="6" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1.5"/>
+        <text x="515" y="667" fill="white" font-size="10" font-weight="600" text-anchor="middle">Redis Cluster (Replica)</text>
+        <text x="515" y="683" fill="#94a3b8" font-size="8" text-anchor="middle">session failover</text>
+
+        <rect x="630" y="648" width="170" height="45" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="715" y="667" fill="white" font-size="10" font-weight="600" text-anchor="middle">S3 Cross-Region Rep.</text>
+        <text x="715" y="683" fill="#94a3b8" font-size="8" text-anchor="middle">CRR · 15min replication</text>
+
+        <rect x="830" y="648" width="160" height="45" rx="6" fill="rgba(6, 78, 59, 0.3)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="910" y="667" fill="white" font-size="10" font-weight="600" text-anchor="middle">Standby EKS Cluster</text>
+        <text x="910" y="683" fill="#94a3b8" font-size="8" text-anchor="middle">0 pods · scale on failover</text>
+
+        <!-- Region → Region replication -->
+        <line x1="310" y1="588" x2="315" y2="646" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="6,3" marker-end="url(#arrow-amber)"/>
+        <text x="325" y="620" fill="#fbbf24" font-size="7">DB Replication</text>
+        <line x1="690" y1="582" x2="715" y2="646" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="6,3" marker-end="url(#arrow-amber)"/>
+        <text x="710" y="618" fill="#fbbf24" font-size="7">S3 CRR</text>
+
+        <!-- ═══════════════════════════════════════════════════════════
+             EXTERNAL SERVICES
+             ════════════════════════════════════════════════════════ -->
+        <rect x="180" y="790" width="1070" height="110" rx="10" fill="rgba(30, 41, 59, 0.3)" stroke="#64748b" stroke-width="0.8" stroke-dasharray="5,5"/>
+        <text x="195" y="808" fill="#64748b" font-size="9" font-weight="600">EXTERNAL INTEGRATIONS</text>
+
+        <rect x="210" y="818" width="150" height="50" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="285" y="838" fill="white" font-size="10" font-weight="600" text-anchor="middle">Razorpay</text>
+        <text x="285" y="854" fill="#94a3b8" font-size="8" text-anchor="middle">UPI · Cards · NetBanking</text>
+
+        <rect x="400" y="818" width="150" height="50" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="475" y="838" fill="white" font-size="10" font-weight="600" text-anchor="middle">AWS SNS / SES</text>
+        <text x="475" y="854" fill="#94a3b8" font-size="8" text-anchor="middle">SMS · Email · Push</text>
+
+        <rect x="590" y="818" width="150" height="50" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="665" y="838" fill="white" font-size="10" font-weight="600" text-anchor="middle">WhatsApp Business</text>
+        <text x="665" y="854" fill="#94a3b8" font-size="8" text-anchor="middle">Updates · Support</text>
+
+        <rect x="780" y="818" width="150" height="50" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="855" y="838" fill="white" font-size="10" font-weight="600" text-anchor="middle">Firebase Cloud Msg</text>
+        <text x="855" y="854" fill="#94a3b8" font-size="8" text-anchor="middle">Android/iOS Push</text>
+
+        <!-- ═══════════════════ AUTH FLOW (dashed rose) ═══════════════════ -->
+        <path d="M 320 418 L 320 438 L 285 438 L 285 816" fill="none" stroke="#fb7185" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow-rose)"/>
+        <text x="275" y="630" fill="#fb7185" font-size="7">OTP Verification</text>
+
+        <!-- ═══════════════════════════════════════════════════════════
+             CROSS-CUTTING / MONITORING
+             ════════════════════════════════════════════════════════ -->
+        <rect x="180" y="915" width="1070" height="55" rx="8" fill="rgba(15, 23, 42, 0.6)" stroke="#1e293b" stroke-width="1"/>
+        <text x="200" y="938" fill="#64748b" font-size="8">Cross-cutting:</text>
+        <text x="330" y="938" fill="#22d3ee" font-size="8">CloudWatch</text>
+        <text x="420" y="938" fill="#34d399" font-size="8">Grafana</text>
+        <text x="490" y="938" fill="#fb923c" font-size="8">Prometheus</text>
+        <text x="580" y="938" fill="#a78bfa" font-size="8">OpenTelemetry</text>
+        <text x="690" y="938" fill="#fbbf24" font-size="8">X-Ray (Tracing)</text>
+        <text x="810" y="938" fill="#fb7185" font-size="8">GuardDuty</text>
+        <text x="900" y="938" fill="#94a3b8" font-size="8">Secrets Manager</text>
+        <text x="200" y="958" fill="#64748b" font-size="7">CI/CD:</text>
+        <text x="250" y="958" fill="#94a3b8" font-size="7">GitHub Actions → ECR → ArgoCD → EKS · Blue/Green Deploy · Canary (10% → 50% → 100%)</text>
+
+        <!-- ═══════════════════ LEGEND ═══════════════════ -->
+        <text x="1020" y="815" fill="white" font-size="10" font-weight="600">Legend</text>
+        <rect x="1020" y="825" width="16" height="10" rx="2" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1"/>
+        <text x="1042" y="833" fill="#94a3b8" font-size="8">Frontend/PWA</text>
+        <rect x="1020" y="841" width="16" height="10" rx="2" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1"/>
+        <text x="1042" y="849" fill="#94a3b8" font-size="8">Backend</text>
+        <rect x="1020" y="857" width="16" height="10" rx="2" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1"/>
+        <text x="1042" y="865" fill="#94a3b8" font-size="8">AWS/Cloud</text>
+        <rect x="1020" y="873" width="16" height="10" rx="2" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1"/>
+        <text x="1042" y="881" fill="#94a3b8" font-size="8">Database</text>
+        <rect x="1020" y="889" width="16" height="10" rx="2" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1"/>
+        <text x="1042" y="897" fill="#94a3b8" font-size="8">Security</text>
+        <rect x="1020" y="905" width="16" height="10" rx="2" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1"/>
+        <text x="1042" y="913" fill="#94a3b8" font-size="8">Message/Cache</text>
+      </svg>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot cyan"></div>
+          <h3>Scale Architecture — 5M Concurrent</h3>
+        </div>
+        <ul>
+          <li>• CloudFront: 6 India PoPs — 90% cache hit ratio on static content</li>
+          <li>• PWA offline: Service Worker + IndexedDB — works on 2G/3G</li>
+          <li>• HPA autoscaling: 150+ pods per service at peak (exam season)</li>
+          <li>• Read-heavy: CQRS — content reads from CDN, writes async via SQS</li>
+          <li>• Connection pooling: PgBouncer — 20K connections → 500 DB connections</li>
+          <li>• Regional sharding: Mumbai primary, Hyderabad read replicas</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot emerald"></div>
+          <h3>B.L.U.E. Core — Graph Engine</h3>
+        </div>
+        <ul>
+          <li>• Neo4j stores prerequisite DAG: Class 8 → 9 → 10 dependency chains</li>
+          <li>• Walkthrough Engine computes personalized paths: "What you need for Trigonometry"</li>
+          <li>• Graph precomputed hourly — real-time queries hit Redis cache</li>
+          <li>• Syllabus-mapped: Each guide tagged with ICSE chapter/section codes</li>
+          <li>• Gap analysis: Compare student progress against walkthrough prerequisite set</li>
+          <li>• Adaptive: Re-rank paths based on assessment performance</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot amber"></div>
+          <h3>India-Optimized Infrastructure</h3>
+        </div>
+        <ul>
+          <li>• Primary: AWS ap-south-1 (Mumbai) — 3 AZs, &lt;20ms to major cities</li>
+          <li>• DR: AWS ap-south-2 (Hyderabad) — warm standby, RPO &lt;1s</li>
+          <li>• CDN: 6 India edge locations covering all metro + tier-2 cities</li>
+          <li>• Auth: Phone OTP (99% of Indian users have mobile, 60% no email)</li>
+          <li>• Payments: Razorpay — UPI, Paytm, PhonePe, Cards, NetBanking</li>
+          <li>• Cost optimization: Spot instances for non-critical workloads, reserved for baseline</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot violet"></div>
+          <h3>Data Strategy — PostgreSQL</h3>
+        </div>
+        <ul>
+          <li>• Users: Phone + OTP auth, class/board, progress state</li>
+          <li>• Content: Guide metadata, syllabus mapping, version history</li>
+          <li>• Progress: Completed guides, assessment scores, streak data</li>
+          <li>• Subscriptions: Stripe-style recurring billing via Razorpay</li>
+          <li>• Read replicas: 3x read replicas for dashboard queries</li>
+          <li>• Partitioning: By class (8/9/10) + board (ICSE) for query perf</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot rose"></div>
+          <h3>Security — Defense in Depth</h3>
+        </div>
+        <ul>
+          <li>• WAF: OWASP Top 10 + rate limiting (100 req/s per IP)</li>
+          <li>• Shield Advanced: DDoS protection at edge</li>
+          <li>• Auth: OTP → JWT (15min access + 7d refresh), phone-verified</li>
+          <li>• Network: All services in private subnets, ALB-only ingress</li>
+          <li>• Data: Encryption at rest (KMS) + transit (TLS 1.3)</li>
+          <li>• Content: Verifier-reviewed before publish (B.L.U.E. model)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot orange"></div>
+          <h3>Monetization Architecture</h3>
+        </div>
+        <ul>
+          <li>• Freemium: Free walkthroughs up to Class 8, paywall at 9–10 exam prep</li>
+          <li>• Individual: ₹299/mo or ₹1,999/yr — full access + mock tests</li>
+          <li>• School licensing: ₹50K–₹2L/yr per school — bulk seats + admin dashboard</li>
+          <li>• Coach upsell: Walkthrough identifies gap → "Book 1:1 ₹199 session"</li>
+          <li>• Razorpay Subscriptions: Automated billing, dunning, UPI auto-debit</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer">
+      ICSE Edutech Platform • B.L.U.E. System Architecture • Target: 5M DAU • 99.95% SLA • AWS ap-south-1 + ap-south-2
+    </p>
+  </div>
+</body>
+</html>
