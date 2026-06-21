@@ -26,13 +26,13 @@
     "diagrams": [
       {
         "title": "Rational Numbers on a Number Line",
-        "type": "ascii",
-        "content": "  \u2190\u2500\u2500\u2500\u2500\u2500|\u2500\u2500\u2500\u2500\u2500\u2500|\u2500\u2500\u2500\u2500\u2500\u2500|\u2500\u2500\u2500\u2500\u2500\u2500|\u2500\u2500\u2500\u2500\u2500\u2500|\u2500\u2500\u2500\u2500\u2500\u2500|\u2500\u2500\u2500\u2500\u2500\u2192\n       -1    -1/2    0    1/2     1    3/2\n\nNegative rationals        Zero        Positive rationals"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/1_Rational_Numbers_0.png"
       },
       {
         "title": "Properties of Rational Numbers",
-        "type": "table",
-        "content": "| Property | Example |\n|----------|--------|\n| Closure (addition) | 1/3 + 1/4 = 7/12 \u2713 rational |\n| Commutativity | 1/2 + 1/3 = 1/3 + 1/2 |\n| Associativity | (1/2 + 1/3) + 1/4 = 1/2 + (1/3 + 1/4) |\n| Additive Identity | 3/5 + 0 = 3/5 |\n| Multiplicative Inverse | 3/4 \u00d7 4/3 = 1 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/1_Rational_Numbers_1.png"
       }
     ]
   },
@@ -62,8 +62,8 @@
     "diagrams": [
       {
         "title": "Laws of Exponents",
-        "type": "table",
-        "content": "| Law | Rule | Example |\n|-----|------|--------|\n| Product | a\u1d50 \u00d7 a\u207f = a\u1d50\u207a\u207f | 2\u00b3 \u00d7 2\u2074 = 2\u2077 |\n| Quotient | a\u1d50 \u00f7 a\u207f = a\u1d50\u207b\u207f | 3\u2075 \u00f7 3\u00b2 = 3\u00b3 |\n| Power of power | (a\u1d50)\u207f = a\u1d50\u207f | (2\u00b3)\u00b2 = 2\u2076 |\n| Zero exponent | a\u2070 = 1 | 7\u2070 = 1 |\n| Negative exponent | a\u207b\u207f = 1/a\u207f | 2\u207b\u00b3 = 1/8 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/2_Exponents_and_Powers_0.png"
       }
     ]
   },
@@ -96,8 +96,8 @@
     "diagrams": [
       {
         "title": "Perfect Squares Table",
-        "type": "table",
-        "content": "| n | n\u00b2 | \u221an\u00b2 |\n|---|-----|-----|\n| 1 | 1 | 1 |\n| 2 | 4 | 2 |\n| 3 | 9 | 3 |\n| 4 | 16 | 4 |\n| 5 | 25 | 5 |\n| 6 | 36 | 6 |\n| 7 | 49 | 7 |\n| 8 | 64 | 8 |\n| 9 | 81 | 9 |\n| 10 | 100 | 10 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/3_Squares_and_Square_Roots_0.png"
       }
     ]
   },
@@ -128,8 +128,8 @@
     "diagrams": [
       {
         "title": "Perfect Cubes",
-        "type": "table",
-        "content": "| n | n\u00b3 | \u221b(n\u00b3) |\n|---|-----|------|\n| 1 | 1 | 1 |\n| 2 | 8 | 2 |\n| 3 | 27 | 3 |\n| 4 | 64 | 4 |\n| 5 | 125 | 5 |\n| 6 | 216 | 6 |\n| 7 | 343 | 7 |\n| 8 | 512 | 8 |\n| 9 | 729 | 9 |\n| 10 | 1000 | 10 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/4_Cubes_and_Cube_Roots_0.png"
       }
     ]
   },
@@ -161,8 +161,8 @@
     "diagrams": [
       {
         "title": "Divisibility Rules Quick Reference",
-        "type": "table",
-        "content": "| Divisor | Rule |\n|---------|------|\n| 2 | Last digit is 0, 2, 4, 6, or 8 |\n| 3 | Sum of digits divisible by 3 |\n| 4 | Last two digits divisible by 4 |\n| 5 | Last digit is 0 or 5 |\n| 6 | Divisible by both 2 and 3 |\n| 8 | Last three digits divisible by 8 |\n| 9 | Sum of digits divisible by 9 |\n| 10 | Last digit is 0 |\n| 11 | Difference of alternating digit sums = 0 or multiple of 11 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/5_Playing_with_Numbers_0.png"
       }
     ]
   },
@@ -192,8 +192,8 @@
     "diagrams": [
       {
         "title": "Venn Diagram \u2014 Sets A and B",
-        "type": "ascii",
-        "content": "  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n  \u2502  Universal Set (U)          \u2502\n  \u2502  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510  \u2502\n  \u2502  \u2502  A only  \u2502 \u2502  B only  \u2502  \u2502\n  \u2502  \u2502  {1,2}   \u2502\u2593\u2502  {6,7}  \u2502  \u2502\n  \u2502  \u2502          \u2502A\u2229B\u2502        \u2502  \u2502\n  \u2502  \u2502         {3,4,5}       \u2502  \u2502\n  \u2502  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518  \u2502\n  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n  Shaded middle = A\u2229B"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/6_Sets_0.png"
       }
     ]
   },
@@ -223,8 +223,8 @@
     "diagrams": [
       {
         "title": "Percentage \u2194 Fraction \u2194 Decimal Conversions",
-        "type": "table",
-        "content": "| Percentage | Fraction | Decimal |\n|-----------|----------|--------|\n| 10% | 1/10 | 0.1 |\n| 20% | 1/5 | 0.2 |\n| 25% | 1/4 | 0.25 |\n| 33.33% | 1/3 | 0.333... |\n| 50% | 1/2 | 0.5 |\n| 75% | 3/4 | 0.75 |\n| 100% | 1 | 1.0 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/7_Percent_and_Percentage_0.png"
       }
     ]
   },
@@ -253,8 +253,8 @@
     "diagrams": [
       {
         "title": "Profit and Loss Formulae",
-        "type": "table",
-        "content": "| Formula | Expression |\n|---------|------------|\n| Profit | SP - CP (when SP > CP) |\n| Loss | CP - SP (when CP > SP) |\n| Profit% | (Profit \u00f7 CP) \u00d7 100 |\n| Loss% | (Loss \u00f7 CP) \u00d7 100 |\n| SP (given profit%) | CP \u00d7 (100 + P%) \u00f7 100 |\n| SP (given loss%) | CP \u00d7 (100 - L%) \u00f7 100 |\n| CP (given profit%) | SP \u00d7 100 \u00f7 (100 + P%) |\n| CP (given loss%) | SP \u00d7 100 \u00f7 (100 - L%) |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/8_Profit_and_Loss_0.png"
       }
     ]
   },
@@ -285,8 +285,8 @@
     "diagrams": [
       {
         "title": "SI vs CI Comparison",
-        "type": "table",
-        "content": "| Feature | Simple Interest | Compound Interest |\n|---------|----------------|-------------------|\n| Principal | Fixed each year | Increases yearly |\n| Interest | Same each year | Increases each year |\n| Formula | P\u00d7R\u00d7T/100 | P(1+R/100)\u207f - P |\n| Growth | Linear | Exponential |\n| After 1 yr | Same amount | Same amount |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/9_Simple_and_Compound_Interest_0.png"
       }
     ]
   },
@@ -317,8 +317,8 @@
     "diagrams": [
       {
         "title": "Direct vs Inverse Variation",
-        "type": "table",
-        "content": "| Feature | Direct | Inverse |\n|---------|--------|---------|\n| Relationship | y \u221d x | y \u221d 1/x |\n| Product/Ratio | y/x = constant | xy = constant |\n| As x \u2191 | y \u2191 | y \u2193 |\n| As x \u2193 | y \u2193 | y \u2191 |\n| Graph | Straight line through origin | Hyperbola |\n| Example | Speed\u2013distance (fixed time) | Speed\u2013time (fixed distance) |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/10_Direct_and_Inverse_Variation_0.png"
       }
     ]
   },
@@ -348,8 +348,8 @@
     "diagrams": [
       {
         "title": "Algebraic Expression Structure",
-        "type": "ascii",
-        "content": "  Expression: 3x\u00b2 + 5xy - 7\n  \u2502\n  \u251c\u2500\u2500 Term 1: 3x\u00b2\n  \u2502     \u251c\u2500\u2500 Coefficient: 3\n  \u2502     \u2514\u2500\u2500 Variable part: x\u00b2\n  \u2502\n  \u251c\u2500\u2500 Term 2: 5xy\n  \u2502     \u251c\u2500\u2500 Coefficient: 5\n  \u2502     \u2514\u2500\u2500 Variable part: xy (degree 2)\n  \u2502\n  \u2514\u2500\u2500 Term 3: -7 (constant term)\n\n  Degree of polynomial = highest degree term = 2"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/11_Algebraic_Expressions_0.png"
       }
     ]
   },
@@ -379,8 +379,8 @@
     "diagrams": [
       {
         "title": "Key Algebraic Identities",
-        "type": "table",
-        "content": "| Identity | Formula |\n|----------|---------|\n| Square of sum | (a+b)\u00b2 = a\u00b2 + 2ab + b\u00b2 |\n| Square of difference | (a-b)\u00b2 = a\u00b2 - 2ab + b\u00b2 |\n| Product of sum & diff | (a+b)(a-b) = a\u00b2 - b\u00b2 |\n| Cube of sum | (a+b)\u00b3 = a\u00b3 + 3a\u00b2b + 3ab\u00b2 + b\u00b3 |\n| Cube of difference | (a-b)\u00b3 = a\u00b3 - 3a\u00b2b + 3ab\u00b2 - b\u00b3 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/12_Algebraic_Identities_0.png"
       }
     ]
   },
@@ -412,8 +412,8 @@
     "diagrams": [
       {
         "title": "Methods of Factorisation",
-        "type": "ascii",
-        "content": "  FACTORISATION METHODS\n  \u2502\n  \u251c\u2500\u2500 1. Common Factor: ab + ac = a(b+c)\n  \u2502\n  \u251c\u2500\u2500 2. Grouping: ax+ay+bx+by = (a+b)(x+y)\n  \u2502\n  \u251c\u2500\u2500 3. Identity-based:\n  \u2502     \u251c\u2500\u2500 a\u00b2-b\u00b2 = (a+b)(a-b)\n  \u2502     \u251c\u2500\u2500 a\u00b2+2ab+b\u00b2 = (a+b)\u00b2\n  \u2502     \u2514\u2500\u2500 a\u00b2-2ab+b\u00b2 = (a-b)\u00b2\n  \u2502\n  \u2514\u2500\u2500 4. Splitting middle term: x\u00b2+5x+6 = (x+2)(x+3)"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/13_Factorisation_0.png"
       }
     ]
   },
@@ -444,8 +444,8 @@
     "diagrams": [
       {
         "title": "Steps to Solve a Linear Equation",
-        "type": "ascii",
-        "content": "  STEP 1: Remove brackets (expand)\n       \u2193\n  STEP 2: Collect variable terms on one side\n       \u2193\n  STEP 3: Collect constants on the other side\n       \u2193\n  STEP 4: Simplify both sides\n       \u2193\n  STEP 5: Divide both sides by the coefficient\n       \u2193\n  STEP 6: CHECK by substituting back"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/14_Linear_Equations_in_One_Variable_0.png"
       }
     ]
   },
@@ -476,8 +476,8 @@
     "diagrams": [
       {
         "title": "Inequation Number Line Notation",
-        "type": "table",
-        "content": "| Condition | Symbol | Number Line |\n|-----------|--------|-------------|\n| x > a | Open circle at a, arrow right | \u25cb\u2500\u2500\u2500\u2500\u2500\u2500\u2192 |\n| x \u2265 a | Filled circle at a, arrow right | \u25cf\u2500\u2500\u2500\u2500\u2500\u2500\u2192 |\n| x < a | Open circle at a, arrow left | \u2190\u2500\u2500\u2500\u2500\u2500\u2500\u25cb |\n| x \u2264 a | Filled circle at a, arrow left | \u2190\u2500\u2500\u2500\u2500\u2500\u2500\u25cf |\n| a < x < b | Open circles at a and b | \u25cb\u2500\u2500\u2500\u2500\u2500\u2500\u25cb |\n| a \u2264 x \u2264 b | Filled circles at a and b | \u25cf\u2500\u2500\u2500\u2500\u2500\u2500\u25cf |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/15_Linear_Inequations_0.png"
       }
     ]
   },
@@ -506,8 +506,8 @@
     "diagrams": [
       {
         "title": "Types of Quadrilaterals",
-        "type": "table",
-        "content": "| Shape | Parallel Sides | Equal Sides | Right Angles | Diagonals |\n|-------|---------------|-------------|-------------|----------|\n| Parallelogram | 2 pairs | Opp. sides | None | Bisect each other |\n| Rectangle | 2 pairs | Opp. sides | All 4 | Equal & bisect |\n| Rhombus | 2 pairs | All 4 | None | Perp. bisectors |\n| Square | 2 pairs | All 4 | All 4 | Equal & perp. |\n| Trapezium | 1 pair | Varies | Varies | No special property |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/16_Quadrilaterals_0.png"
       }
     ]
   },
@@ -538,8 +538,8 @@
     "diagrams": [
       {
         "title": "Special Quadrilateral Properties",
-        "type": "table",
-        "content": "| Property | Square | Rhombus | Rectangle |\n|----------|--------|---------|----------|\n| All sides equal | \u2713 | \u2713 | \u2717 |\n| All angles 90\u00b0 | \u2713 | \u2717 | \u2713 |\n| Diagonals equal | \u2713 | \u2717 | \u2713 |\n| Diagonals perpendicular | \u2713 | \u2713 | \u2717 |\n| Diagonals bisect angles | \u2713 | \u2713 | \u2717 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/17_Special_Types_of_Quadrilaterals_0.png"
       }
     ]
   },
@@ -571,8 +571,8 @@
     "diagrams": [
       {
         "title": "Geometric Construction Tools and Their Uses",
-        "type": "table",
-        "content": "| Tool | Use |\n|------|-----|\n| Ruler | Drawing straight lines of given length |\n| Compass | Drawing arcs and circles |\n| Protractor | Measuring and drawing angles |\n| Set squares | Drawing perpendiculars and parallels |\n| Divider | Transferring measurements |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/18_Construction_0.png"
       }
     ]
   },
@@ -603,8 +603,8 @@
     "diagrams": [
       {
         "title": "Common 3D Shapes: F, V, E",
-        "type": "table",
-        "content": "| Shape | Faces (F) | Vertices (V) | Edges (E) | F+V-E |\n|-------|-----------|-------------|-----------|-------|\n| Cube | 6 | 8 | 12 | 2 |\n| Cuboid | 6 | 8 | 12 | 2 |\n| Triangular prism | 5 | 6 | 9 | 2 |\n| Square pyramid | 5 | 5 | 8 | 2 |\n| Triangular pyramid | 4 | 4 | 6 | 2 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/19_Representing_3-D_in_2-D_0.png"
       }
     ]
   },
@@ -634,8 +634,8 @@
     "diagrams": [
       {
         "title": "Lines of Symmetry for Regular Polygons",
-        "type": "table",
-        "content": "| Shape | Sides | Lines of Symmetry | Order of Rotational Symmetry |\n|-------|-------|-------------------|------------------------------|\n| Equilateral triangle | 3 | 3 | 3 |\n| Square | 4 | 4 | 4 |\n| Regular pentagon | 5 | 5 | 5 |\n| Regular hexagon | 6 | 6 | 6 |\n| Circle | \u221e | \u221e | \u221e |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/20_Symmetry_Reflection_and_Rotation_0.png"
       }
     ]
   },
@@ -665,8 +665,8 @@
     "diagrams": [
       {
         "title": "Area Formulae for Polygons",
-        "type": "table",
-        "content": "| Shape | Formula |\n|-------|---------|\n| Trapezium | \u00bd \u00d7 (a + b) \u00d7 h |\n| Parallelogram | base \u00d7 height |\n| Rhombus | \u00bd \u00d7 d\u2081 \u00d7 d\u2082 (diagonals) |\n| Regular polygon | (\u00bd \u00d7 perimeter \u00d7 apothem) |\n| Equilateral triangle | (\u221a3/4) \u00d7 a\u00b2 |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/21_Area_of_a_Trapezium_and_Polygons_0.png"
       }
     ]
   },
@@ -696,8 +696,8 @@
     "diagrams": [
       {
         "title": "Surface Area and Volume Formulae",
-        "type": "table",
-        "content": "| Shape | Surface Area | Volume |\n|-------|-------------|--------|\n| Cube (side a) | 6a\u00b2 | a\u00b3 |\n| Cuboid (l\u00d7b\u00d7h) | 2(lb+bh+lh) | lbh |\n| Cylinder (r,h) | 2\u03c0r(r+h) | \u03c0r\u00b2h |\n| Sphere (r) | 4\u03c0r\u00b2 | (4/3)\u03c0r\u00b3 |\n| Cone (r,h,l) | \u03c0r(r+l) | (1/3)\u03c0r\u00b2h |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/22_Surface_Area_Volume_and_Capacity_0.png"
       }
     ]
   },
@@ -729,8 +729,8 @@
     "diagrams": [
       {
         "title": "Measures of Central Tendency",
-        "type": "table",
-        "content": "| Measure | Formula | Best Used When |\n|---------|---------|----------------|\n| Mean | Sum \u00f7 count | No extreme values |\n| Median | Middle value | Data has outliers |\n| Mode | Most frequent | Categorical data |\n| Range | Max - Min | Measuring spread |"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/23_Data_Handling_0.png"
       }
     ]
   },
@@ -760,8 +760,8 @@
     "diagrams": [
       {
         "title": "Probability Scale",
-        "type": "ascii",
-        "content": "  Impossible    Unlikely    Equally likely    Likely    Certain\n      \u2502             \u2502               \u2502              \u2502          \u2502\n      0            0.25            0.5           0.75         1\n      \u2502                                                       \u2502\n   Never                                                  Always\n   happens                                                happens\n\n  P(event) is always between 0 and 1"
+        "type": "image",
+        "content": "/diagrams/8/mathematics/24_Probability_0.png"
       }
     ]
   },
@@ -794,13 +794,13 @@
     "diagrams": [
       {
         "title": "States of Matter \u2014 KTM Comparison",
-        "type": "table",
-        "content": "| Property | Solid | Liquid | Gas |\n|----------|-------|--------|-----|\n| Particle arrangement | Regular, ordered | Random, close | Random, far apart |\n| Particle motion | Vibrate in place | Slide past each other | Move freely |\n| Spacing | Very close | Close | Very far |\n| Compressibility | Very low | Low | High |\n| Shape | Fixed | Takes container shape | Takes container shape |\n| Volume | Fixed | Fixed | Fills container |"
+        "type": "image",
+        "content": "/diagrams/8/physics/1_Matter_Kinetic_Theory_of_Matter_0.png"
       },
       {
         "title": "Brownian Motion",
-        "type": "ascii",
-        "content": "  Large particle (smoke/pollen):\n\n     air\u2192  \u2191\u2190air     \u2190 Each arrow = air molecule collision\n      \u2193\u2192  [SMOKE]  \u2191\u2192\n     \u2190air   \u2193   air\u2190\n\n  Result: Net force always changing direction\n  \u2192 Particle zigzags randomly (Brownian motion)"
+        "type": "image",
+        "content": "/diagrams/8/physics/1_Matter_Kinetic_Theory_of_Matter_1.png"
       }
     ]
   },
@@ -830,8 +830,8 @@
     "diagrams": [
       {
         "title": "SI Base Units",
-        "type": "table",
-        "content": "| Quantity | Unit | Symbol |\n|----------|------|--------|\n| Length | Metre | m |\n| Mass | Kilogram | kg |\n| Time | Second | s |\n| Temperature | Kelvin | K |\n| Electric current | Ampere | A |\n| Amount of substance | Mole | mol |\n| Luminous intensity | Candela | cd |"
+        "type": "image",
+        "content": "/diagrams/8/physics/2_Physical_Quantities_and_Measurements_0.png"
       }
     ]
   },
@@ -862,8 +862,8 @@
     "diagrams": [
       {
         "title": "Pressure, Force, and Area Triangle",
-        "type": "ascii",
-        "content": "           FORCE (F)\n            /      \\\n           /        \\\n   Pressure  \u00d7   Area\n   (P = F/A)       (A = F/P)\n   F = P \u00d7 A\n\n  P = F/A    F = P\u00d7A    A = F/P\n\nUnits: Force in Newtons (N)\n       Area in m\u00b2\n       Pressure in Pa (N/m\u00b2) or Pascal"
+        "type": "image",
+        "content": "/diagrams/8/physics/3_Force_and_Pressure_0.png"
       }
     ]
   },
@@ -895,8 +895,8 @@
     "diagrams": [
       {
         "title": "Energy Conversion at Different Heights",
-        "type": "ascii",
-        "content": "  TOP (h = 10 m)     MIDWAY (h = 5 m)     BOTTOM (h = 0)\n\n  PE = mgh = max      PE = \u00bd max          PE = 0\n  KE = 0              KE = \u00bd max          KE = max\n  \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500       \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500       \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n  Total E = 100%      Total E = 100%      Total E = 100%\n\n  \u2190 Energy is always conserved: PE + KE = constant \u2192"
+        "type": "image",
+        "content": "/diagrams/8/physics/4_Energy_0.png"
       }
     ]
   },
@@ -927,8 +927,8 @@
     "diagrams": [
       {
         "title": "Reflection of Light \u2014 Plane Mirror",
-        "type": "ascii",
-        "content": "              Normal (perpendicular to mirror)\n                    \u2502\n  Incident ray  35\u00b0 \u2502 35\u00b0  Reflected ray\n              \\     \u2502     /\n               \\    \u2502    /\n                \\   \u2502   /\n     \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\\\u2500\u2500\u253c\u2500\u2500/\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Mirror\n                  \\ \u2502 /\n                   \\\u2502/\n\n  \u2220 of incidence = \u2220 of reflection (Law of reflection)"
+        "type": "image",
+        "content": "/diagrams/8/physics/5_Light_Energy_0.png"
       }
     ]
   },
@@ -958,8 +958,8 @@
     "diagrams": [
       {
         "title": "Three Modes of Heat Transfer",
-        "type": "table",
-        "content": "| Feature | Conduction | Convection | Radiation |\n|---------|-----------|-----------|----------|\n| Medium needed | Yes (solid) | Yes (fluid) | No |\n| Movement of matter | No | Yes | No |\n| Speed | Slow | Medium | Very fast (speed of light) |\n| Example | Metal rod in flame | Sea breeze | Sunlight |\n| Best conductors | Metals | Water/Air | Dark/rough surfaces |"
+        "type": "image",
+        "content": "/diagrams/8/physics/6_Heat_Transfer_0.png"
       }
     ]
   },
@@ -988,8 +988,8 @@
     "diagrams": [
       {
         "title": "Properties of Sound",
-        "type": "table",
-        "content": "| Property | Description | Unit |\n|----------|-------------|------|\n| Frequency | Number of vibrations per second | Hertz (Hz) |\n| Amplitude | Maximum displacement from rest | Metres (m) |\n| Wavelength | Distance for one complete wave | Metres (m) |\n| Speed | Distance per unit time | m/s |\n| Pitch | How high/low sound seems | Related to frequency |\n| Loudness | How strong the sound seems | Related to amplitude |"
+        "type": "image",
+        "content": "/diagrams/8/physics/7_Sound_0.png"
       }
     ]
   },
@@ -1018,13 +1018,13 @@
     "diagrams": [
       {
         "title": "Circuit Symbols",
-        "type": "table",
-        "content": "| Component | Symbol Description |\n|-----------|-------------------|\n| Cell | Short and long parallel lines |\n| Battery | Multiple cells |\n| Resistor | Rectangle or zigzag |\n| Bulb | Circle with cross inside |\n| Switch (open) | Gap in wire |\n| Switch (closed) | Connected line |\n| Ammeter | Circle with 'A' |\n| Voltmeter | Circle with 'V' |"
+        "type": "image",
+        "content": "/diagrams/8/physics/8_Electricity_and_Magnetism_0.png"
       },
       {
         "title": "Series vs Parallel Circuits",
-        "type": "table",
-        "content": "| Feature | Series | Parallel |\n|---------|--------|----------|\n| Current | Same throughout | Divides at branches |\n| Voltage | Divides across components | Same across each component |\n| Resistance | R = R\u2081+R\u2082+... | 1/R = 1/R\u2081+1/R\u2082+... |\n| If one fails | All stop working | Others continue |\n| Household use | No | Yes |"
+        "type": "image",
+        "content": "/diagrams/8/physics/8_Electricity_and_Magnetism_1.png"
       }
     ]
   },
@@ -1056,8 +1056,8 @@
     "diagrams": [
       {
         "title": "Classification of Matter",
-        "type": "ascii",
-        "content": "           MATTER\n          /       \\\n    Pure Substance  Mixture\n       /    \\       /      \\\n  Element  Compound Homogeneous Heterogeneous\n  (O\u2082,Fe) (H\u2082O,CO\u2082) (saltwater)  (sand+water)"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/1_Matter_0.png"
       }
     ]
   },
@@ -1088,8 +1088,8 @@
     "diagrams": [
       {
         "title": "Physical vs Chemical Change",
-        "type": "table",
-        "content": "| Feature | Physical Change | Chemical Change |\n|---------|----------------|------------------|\n| New substance | No | Yes |\n| Reversibility | Usually reversible | Usually irreversible |\n| Energy change | Small | Often large |\n| Original properties | Retained | Lost |\n| Examples | Melting, dissolving, cutting | Burning, rusting, digestion |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/2_Physical_and_Chemical_Changes_0.png"
       }
     ]
   },
@@ -1120,8 +1120,8 @@
     "diagrams": [
       {
         "title": "Element vs Compound vs Mixture",
-        "type": "table",
-        "content": "| Feature | Element | Compound | Mixture |\n|---------|---------|----------|--------|\n| Made of | 1 type of atom | 2+ elements chemically combined | 2+ substances physically mixed |\n| Composition | Fixed | Fixed by formula | Variable |\n| Separation | Cannot be split (chemically) | Only by chemical means | By physical methods |\n| Properties | Unique | Different from elements | Mix of component properties |\n| Example | Fe, O\u2082, Na | H\u2082O, NaCl, CO\u2082 | Air, seawater, alloys |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/3_Elements_Compounds_and_Mixtures_0.png"
       }
     ]
   },
@@ -1152,13 +1152,13 @@
     "diagrams": [
       {
         "title": "Bohr Model of Sodium (Na)",
-        "type": "ascii",
-        "content": "             Na (11 electrons)\n\n          \u250c\u2500\u2500\u2500 K shell: 2 electrons\n          \u2502 \u250c\u2500\u2500 L shell: 8 electrons\n          \u2502 \u2502 \u250c\u2500 M shell: 1 electron (VALENCE)\n          \u2502 \u2502 \u2502\n         (\u25cf)\u2500\u25cf\u2500\u25cf\n          \u2502 \u2502 \u2502\n   Nucleus: 11 protons + 12 neutrons\n\n  Configuration: 2, 8, 1\n  Valence electrons: 1 \u2192 Reactive metal"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/4_Atomic_Structure_0.png"
       },
       {
         "title": "Sub-atomic Particles",
-        "type": "table",
-        "content": "| Particle | Location | Charge | Mass (amu) |\n|----------|----------|--------|----------|\n| Proton | Nucleus | +1 | 1 |\n| Neutron | Nucleus | 0 | 1 |\n| Electron | Shells (orbits) | -1 | 1/1836 \u2248 0 |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/4_Atomic_Structure_1.png"
       }
     ]
   },
@@ -1189,8 +1189,8 @@
     "diagrams": [
       {
         "title": "Common Ion Valencies",
-        "type": "table",
-        "content": "| Valency 1 | Valency 2 | Valency 3 |\n|-----------|-----------|----------|\n| H\u207a, Na\u207a, K\u207a | Mg\u00b2\u207a, Ca\u00b2\u207a, Zn\u00b2\u207a | Al\u00b3\u207a, Fe\u00b3\u207a |\n| Cl\u207b, Br\u207b, I\u207b | O\u00b2\u207b, S\u00b2\u207b | N\u00b3\u207b, P\u00b3\u207b |\n| OH\u207b, NO\u2083\u207b | SO\u2084\u00b2\u207b, CO\u2083\u00b2\u207b | PO\u2084\u00b3\u207b |\n| NH\u2084\u207a | Fe\u00b2\u207a, Cu\u00b2\u207a | Cr\u00b3\u207a |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/5_Language_of_Chemistry_0.png"
       }
     ]
   },
@@ -1221,8 +1221,8 @@
     "diagrams": [
       {
         "title": "Types of Chemical Reactions",
-        "type": "table",
-        "content": "| Type | Pattern | Example |\n|------|---------|--------|\n| Combination | A + B \u2192 AB | 2H\u2082 + O\u2082 \u2192 2H\u2082O |\n| Decomposition | AB \u2192 A + B | 2HgO \u2192 2Hg + O\u2082 |\n| Displacement | A + BC \u2192 AC + B | Zn + H\u2082SO\u2084 \u2192 ZnSO\u2084 + H\u2082 |\n| Double displacement | AB + CD \u2192 AD + CB | NaCl + AgNO\u2083 \u2192 AgCl + NaNO\u2083 |\n| Neutralisation | Acid + Base \u2192 Salt + Water | HCl + NaOH \u2192 NaCl + H\u2082O |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/6_Chemical_Reactions_0.png"
       }
     ]
   },
@@ -1252,8 +1252,8 @@
     "diagrams": [
       {
         "title": "Allotropes of Carbon",
-        "type": "table",
-        "content": "| Property | Diamond | Graphite | Fullerene (C\u2086\u2080) |\n|----------|---------|----------|------------------|\n| Bonding | Tetrahedral 3D | Planar 2D layers | Spherical cage |\n| Hardness | Hardest natural substance | Soft, slippery | Moderate |\n| Electrical conduction | Insulator | Good conductor | Semiconductor |\n| Lustre | High sparkle | Metallic | - |\n| Uses | Jewellery, cutting | Pencil, lubricant | Nanotechnology |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/7_Carbon_and_its_Compounds_0.png"
       }
     ]
   },
@@ -1285,8 +1285,8 @@
     "diagrams": [
       {
         "title": "Water Treatment Steps",
-        "type": "ascii",
-        "content": "  RIVER/LAKE WATER\n       \u2193\n  [Sedimentation tank]  \u2190 Heavy particles settle\n       \u2193\n  [Coagulation]         \u2190 Alum added; small particles clump\n       \u2193\n  [Filtration]          \u2190 Sand/gravel filter removes particles\n       \u2193\n  [Chlorination]        \u2190 Cl\u2082 kills bacteria\n       \u2193\n  SAFE DRINKING WATER"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/8_Water_0.png"
       }
     ]
   },
@@ -1317,8 +1317,8 @@
     "diagrams": [
       {
         "title": "Properties of Hydrogen",
-        "type": "table",
-        "content": "| Property | Value/Description |\n|----------|------------------|\n| State | Gas at room temperature |\n| Colour | Colourless |\n| Odour | Odourless |\n| Density | Lightest known gas |\n| Solubility in water | Slightly soluble |\n| Flammability | Burns with blue flame |\n| Combustion product | Water (H\u2082O) only |\n| Use as fuel | Clean \u2014 no pollutants |"
+        "type": "image",
+        "content": "/diagrams/8/chemistry/9_Hydrogen_0.png"
       }
     ]
   },
@@ -3331,8 +3331,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Pure Arithmetic Rational irrational numb",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Rational Number | Expressible as p/q where p, q are integers and q \u2260 0. Decima |\n| Irrational Number | Cannot be expressed as p/q; decimal is non-terminating and n |\n| Real Number | The complete set of rational and irrational numbers; every p |\n| Surds | Irrational numbers expressed as roots: \u221a2, \u221b5, etc. Surds in |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Pure_Arithmetic_Rational_irrational_numbers_as_real_numbers_0.png"
       }
     ]
   },
@@ -3362,8 +3362,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Pure Arithmetic Representation of ration",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Number Line | A line where every point represents a unique real number; ne |\n| Geometrical Representation of \u221an | Using a right triangle with legs 1 and (n\u20131) to locate \u221an: b |\n| Successive Magnification | A method to locate irrational numbers on the number line by  |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Pure_Arithmetic_Representation_of_rational_and_irrational_numbers_on_the_number_line_0.png"
       }
     ]
   },
@@ -3393,8 +3393,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Commercial Mathematics Profit and Loss",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Cost Price (CP) | Amount paid to purchase an article; includes overhead expens |\n| Selling Price (SP) | Amount received on selling the article. |\n| Profit | SP \u2013 CP when SP > CP. |\n| Loss | CP \u2013 SP when CP > SP. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Commercial_Mathematics_Profit_and_Loss_0.png"
       }
     ]
   },
@@ -3424,8 +3424,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Commercial Mathematics Compound Interest",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Principal (P) | Initial sum of money. |\n| Rate (R) | Annual rate of interest (%). |\n| Time (n) | Number of years. |\n| Amount (A) | Total at the end: A = P(1 + R/100)\u207f. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Commercial_Mathematics_Compound_Interest_0.png"
       }
     ]
   },
@@ -3455,8 +3455,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Expansions",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Algebraic Identity | An equation true for all values of the variables. |\n| Binomial | An expression with two terms. E.g., (a + b). |\n| Expansion | Using identities to write products in expanded form. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Algebra_Expansions_0.png"
       }
     ]
   },
@@ -3486,8 +3486,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Factorisation",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Common Factor Method | Take out the HCF of all terms. E.g., 3x\u00b2+6x = 3x(x+2). |\n| Grouping | Group terms to find a common binomial factor. |\n| Using Identities | Recognise patterns: a\u00b2\u2013b\u00b2 = (a+b)(a\u2013b); a\u00b2\u00b12ab+b\u00b2 = (a\u00b1b)\u00b2. |\n| Middle Term Splitting | For ax\u00b2+bx+c: find two numbers with product ac and sum b, th |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Algebra_Factorisation_0.png"
       }
     ]
   },
@@ -3517,8 +3517,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Changing the subject of a formul",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Subject of a Formula | The variable expressed on its own on one side of the formula |\n| Transposition | Moving terms across the = sign, changing their sign (additio |\n| Rearrangement | Using inverse operations to isolate the required variable. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Algebra_Changing_the_subject_of_a_formula_0.png"
       }
     ]
   },
@@ -3548,8 +3548,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Linear Equations and Simultaneou",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Simultaneous Linear Equations | A pair of linear equations in two variables that must be sat |\n| Elimination Method | Multiply equations to make coefficients of one variable equa |\n| Substitution Method | Express one variable in terms of the other from one equation |\n| Cross-Multiplication Method | A formula-based method to solve a pair of simultaneous equat |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Algebra_Linear_Equations_and_Simultaneous_linear_Equations_0.png"
       }
     ]
   },
@@ -3579,8 +3579,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Indices Exponents",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Index / Exponent | In a\u207f, the exponent n indicates how many times a is multipli |\n| Fractional Exponent | a^(p/q) = \u221c\u2093a\u1d56 (the qth root of a\u1d56). E.g., 8^(2/3) = (\u221b8)\u00b2 = |\n| Negative Exponent | a^(\u2013n) = 1/a\u207f. |\n| Zero Exponent | a\u2070 = 1 for any a \u2260 0. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Algebra_Indices_Exponents_0.png"
       }
     ]
   },
@@ -3610,8 +3610,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Logarithms",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Logarithm | The logarithm of n to the base a is the exponent x such that |\n| Common Logarithm | Logarithm to base 10 (written log\u2081\u2080 or simply log). Used in  |\n| Natural Logarithm | Logarithm to base e (e \u2248 2.718). Written ln. |\n| Characteristic | The integer part of a common logarithm; indicates the number |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Algebra_Logarithms_0.png"
       }
     ]
   },
@@ -3641,8 +3641,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Congruency",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Congruence | Two figures are congruent (\u2245) if one can be superimposed exa |\n| SSS | Three sides equal \u2192 triangles congruent. |\n| SAS | Two sides and the included angle equal \u2192 congruent. |\n| ASA | Two angles and the included side equal \u2192 congruent. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Geometry_Congruency_0.png"
       }
     ]
   },
@@ -3672,8 +3672,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Triangles",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Angle Sum Property | The sum of interior angles of a triangle = 180\u00b0. |\n| Exterior Angle Theorem | An exterior angle = sum of the two non-adjacent interior ang |\n| Isosceles Triangle Theorem | In an isosceles triangle, angles opposite equal sides are eq |\n| Mid-Point Theorem | The segment joining the midpoints of two sides of a triangle |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Geometry_Triangles_0.png"
       }
     ]
   },
@@ -3703,8 +3703,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Constructions",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Angle Bisector | A ray that divides an angle into two equal parts; constructe |\n| Perpendicular Bisector | A line perpendicular to a segment at its midpoint; equidista |\n| Standard Angle Construction | Angles of 60\u00b0, 90\u00b0, 120\u00b0, 30\u00b0, 45\u00b0 can be constructed using  |\n| Constructing Triangles | Given: three sides (SSS), two sides and included angle (SAS) |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Geometry_Constructions_0.png"
       }
     ]
   },
@@ -3734,8 +3734,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Pythagoras Theorem",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Right Triangle | A triangle with one angle = 90\u00b0. |\n| Hypotenuse | The side opposite the 90\u00b0 angle; the longest side of a right |\n| Pythagorean Triplet | Three natural numbers (a, b, c) with a\u00b2 + b\u00b2 = c\u00b2. E.g., (3, |\n| Converse of Pythagoras | If a\u00b2+b\u00b2 = c\u00b2 in a triangle, then the angle opposite c is 90 |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Geometry_Pythagoras_Theorem_0.png"
       }
     ]
   },
@@ -3765,8 +3765,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Rectilinear Figures",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Parallelogram | A quadrilateral with both pairs of opposite sides parallel a |\n| Properties | Opposite sides equal, opposite angles equal, diagonals bisec |\n| Mid-Point Theorem | Segment joining midpoints of two sides of a triangle is para |\n| Converse Mid-Point Theorem | A line through the midpoint of one side, parallel to another |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Geometry_Rectilinear_Figures_0.png"
       }
     ]
   },
@@ -3796,8 +3796,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Quadrilaterals",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Quadrilateral | A polygon with 4 sides, 4 angles, 4 vertices. Angle sum = 36 |\n| Conditions for Parallelogram | A quadrilateral is a parallelogram if: (1) both pairs of opp |\n| Trapezium | Exactly one pair of parallel sides. |\n| Isosceles Trapezium | Non-parallel sides are equal; base angles are equal; diagona |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Geometry_Quadrilaterals_0.png"
       }
     ]
   },
@@ -3827,8 +3827,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Statistics Understanding and recognition",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Data | Facts or information collected for analysis. |\n| Raw Data | Data in its original, unorganised form. |\n| Primary Data | Data collected firsthand by the researcher through surveys,  |\n| Secondary Data | Data collected and published by others (Census, newspapers,  |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Statistics_Understanding_and_recognition_of_data_0.png"
       }
     ]
   },
@@ -3858,8 +3858,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Statistics Tabulation",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Frequency | The number of times a particular value appears in the data s |\n| Frequency Table | A table listing values/class intervals and their frequencies |\n| Cumulative Frequency | The running total of frequencies up to and including a given |\n| Relative Frequency | Frequency of a class divided by total frequency; expresses f |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Statistics_Tabulation_0.png"
       }
     ]
   },
@@ -3889,8 +3889,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Statistics Grouped frequency distributio",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Class Interval | A range of values: e.g., 10\u201320, 20\u201330. Lower class limit (LC |\n| Class Width (h) | UCL \u2013 LCL. Usually constant throughout the distribution. |\n| Class Mark (Midpoint) | The middle value of a class: (LCL + UCL)/2. Used to represen |\n| Frequency Density | Frequency \u00f7 class width. Used for histograms with unequal cl |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Statistics_Grouped_frequency_distributions_0.png"
       }
     ]
   },
@@ -3920,8 +3920,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Statistics Drawing a histogram",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Histogram | A bar graph for continuous grouped data; bars are adjacent ( |\n| Frequency Polygon | A line graph connecting the midpoints of the tops of histogr |\n| Frequency Density | Used when class intervals are unequal: Frequency Density = F |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Statistics_Drawing_a_histogram_0.png"
       }
     ]
   },
@@ -3951,8 +3951,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Mensuration Area and perimeter of variou",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Perimeter | The total length of the boundary of a 2D figure. |\n| Area | The amount of surface enclosed within a 2D figure. |\n| Heron's Formula | Area of a triangle with sides a, b, c: A = \u221a[s(s\u2013a)(s\u2013b)(s\u2013c |\n| Semi-perimeter (s) | Half the perimeter of a triangle: s = (a+b+c)/2. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Mensuration_Area_and_perimeter_of_various_shapes_0.png"
       }
     ]
   },
@@ -3982,8 +3982,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Mensuration Circle Area and circumferenc",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Radius (r) | Distance from centre to any point on the circle. |\n| Diameter (d) | d = 2r; the longest chord of a circle. |\n| Circumference | The perimeter of a circle = 2\u03c0r. |\n| Sector | A 'pie slice' portion of a circle between two radii. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Mensuration_Circle_Area_and_circumference_0.png"
       }
     ]
   },
@@ -4013,8 +4013,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Mensuration Surface area and volume of v",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Lateral Surface Area (LSA) | Area of all faces except the base(s). |\n| Total Surface Area (TSA) | Area of ALL faces including bases. |\n| Volume | Space enclosed by the solid. |\n| Slant Height (l) | For a cone: l = \u221a(r\u00b2+h\u00b2). Not the same as vertical height h. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Mensuration_Surface_area_and_volume_of_various_solids_0.png"
       }
     ]
   },
@@ -4044,8 +4044,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Trigonometry Trigonometric Ratios",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Sine (sin) | sin \u03b8 = Opposite/Hypotenuse |\n| Cosine (cos) | cos \u03b8 = Adjacent/Hypotenuse |\n| Tangent (tan) | tan \u03b8 = Opposite/Adjacent = sin \u03b8/cos \u03b8 |\n| Cosecant (cosec) | cosec \u03b8 = 1/sin \u03b8 = Hypotenuse/Opposite |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Trigonometry_Trigonometric_Ratios_0.png"
       }
     ]
   },
@@ -4075,8 +4075,8 @@
     "diagrams": [
       {
         "title": "Laws & Formulas: Trigonometry Trigonometric ratios of sta",
-        "type": "table",
-        "content": "| Name | Formula/Statement |\n|---|---|\n| sin 0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, 90\u00b0 | 0, 1/2, 1/\u221a2, \u221a3/2, 1 |\n| cos 0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, 90\u00b0 | 1, \u221a3/2, 1/\u221a2, 1/2, 0 |\n| tan 0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, 90\u00b0 | 0, 1/\u221a3, 1, \u221a3, undefined (\u221e) |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Trigonometry_Trigonometric_ratios_of_standard_angles_0.png"
       }
     ]
   },
@@ -4106,8 +4106,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Trigonometry Simple 2-D problems",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Angle of Elevation | The angle above the horizontal to an object: measured from t |\n| Angle of Depression | The angle below the horizontal to an object: measured from t |\n| Line of Sight | The straight line from the observer's eye to the object. |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Trigonometry_Simple_2-D_problems_0.png"
       }
     ]
   },
@@ -4137,8 +4137,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Coordinate Geometry Dependent and indepe",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Independent Variable | The variable whose value is chosen freely; plotted on the x- |\n| Dependent Variable | The variable whose value depends on the independent variable |\n| Functional Relationship | For each value of x, there is exactly one value of y: y = f( |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Coordinate_Geometry_Dependent_and_independent_variables_0.png"
       }
     ]
   },
@@ -4168,8 +4168,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Coordinate Geometry Ordered pairs co-ord",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Cartesian Plane | A 2D plane formed by two perpendicular number lines: x-axis  |\n| Ordered Pair (x, y) | An ordered pair of numbers specifying the position of a poin |\n| Origin | The intersection of axes at (0, 0). |\n| Quadrants | The four regions: Q1 (+,+), Q2 (\u2013,+), Q3 (\u2013,\u2013), Q4 (+,\u2013). |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Coordinate_Geometry_Ordered_pairs_co-ordinates_of_points_and_plotting_them_in_the_Cartesian_Plane_0.png"
       }
     ]
   },
@@ -4199,8 +4199,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Coordinate Geometry Recognition of graph",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Straight-Line Graph | The graph of a linear equation y = mx + c is always a straig |\n| Slope (Gradient) m | Rate of change of y with respect to x: m = (y\u2082\u2013y\u2081)/(x\u2082\u2013x\u2081).  |\n| y-intercept (c) | The value of y where the graph crosses the y-axis (when x =  |\n| x-intercept | Where the graph crosses the x-axis (when y = 0). |"
+        "type": "image",
+        "content": "/diagrams/9/mathematics/Coordinate_Geometry_Recognition_of_graphs_0.png"
       }
     ]
   },
@@ -4230,8 +4230,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Measurements and Experimentation Estimat",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Order of Magnitude | The power of 10 closest to a given quantity. E.g., the diame |\n| Estimation | Approximate calculation using rounded values and orders of m |\n| Least Count | Smallest measurement an instrument can reliably make. Ruler: |\n| Error | Difference between measured value and true value. Types: sys |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Measurements_and_Experimentation_Estimation_by_orders_of_magnitude_of_size_length_area_and_volume_mass_and_time_0.png"
       }
     ]
   },
@@ -4261,8 +4261,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Measurements and Experimentation Interna",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Base Units | metre (m) \u2014 length, kilogram (kg) \u2014 mass, second (s) \u2014 time, |\n| Derived Units | Units formed by combining base units. E.g., m/s (speed), kg\u00b7 |\n| Prefixes | Multipliers: kilo (10\u00b3), mega (10\u2076), giga (10\u2079), centi (10\u207b\u00b2 |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Measurements_and_Experimentation_International_System_of_Units_0.png"
       }
     ]
   },
@@ -4354,8 +4354,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Motion in One Dimension Distance Speed V",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Distance | Total path length covered \u2014 scalar (no direction). SI unit:  |\n| Displacement | Shortest straight-line distance from start to finish with di |\n| Speed | Rate of change of distance = distance/time \u2014 scalar. SI unit |\n| Velocity | Rate of change of displacement \u2014 vector. v = displacement/ti |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Motion_in_One_Dimension_Distance_Speed_Velocity_0.png"
       }
     ]
   },
@@ -4385,8 +4385,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Motion in One Dimension Graphs of distan",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Distance-Time Graph | Slope = speed. Straight line \u2192 uniform motion; curve \u2192 accel |\n| Speed-Time Graph | Slope = acceleration. Area under graph = distance/displaceme |\n| Uniform Motion | Straight line on distance-time graph; horizontal line on spe |\n| Uniformly Accelerated | Curve on distance-time; straight line (slope = a) on speed-t |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Motion_in_One_Dimension_Graphs_of_distance-time_and_speed-time_0.png"
       }
     ]
   },
@@ -4416,8 +4416,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Motion in One Dimension Equations of uni",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Uniform Acceleration | Acceleration that remains constant in magnitude and directio |\n| Initial Velocity (u) | Velocity at the start of the time interval being considered. |\n| Final Velocity (v) | Velocity at the end of the time interval. |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Motion_in_One_Dimension_Equations_of_uniformly_accelerated_motion_with_derivations_0.png"
       }
     ]
   },
@@ -4447,8 +4447,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Newtons First Law of Moti",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Inertia | The tendency of a body to resist any change in its state of  |\n| Net Force | The vector sum of all forces on an object. If net force = 0, |\n| Equilibrium | State where net force = 0; the body remains at rest or moves |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Newtons_First_Law_of_Motion_0.png"
       }
     ]
   },
@@ -4478,8 +4478,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Newtons Second Law of Mot",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Newton's Second Law | Net force on a body = mass \u00d7 acceleration: F = ma. The accel |\n| Newton (N) | SI unit of force: 1 N is the force required to accelerate 1  |\n| Momentum (p) | p = mv. Newton's Second Law: F = \u0394p/\u0394t (rate of change of mo |\n| Impulse | Impulse = F \u00d7 t = \u0394p = m(v\u2013u). Force applied for a short tim |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Newtons_Second_Law_of_Motion_0.png"
       }
     ]
   },
@@ -4509,8 +4509,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Newtons Third Law of Moti",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Action-Reaction Pair | Two forces of equal magnitude and opposite direction acting  |\n| Recoil | Backward push experienced by a gun when a bullet is fired; a |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Newtons_Third_Law_of_Motion_0.png"
       }
     ]
   },
@@ -4540,8 +4540,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Gravitation",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Gravitational Force | Universal attractive force between any two masses. Very weak |\n| Universal Gravitational Constant (G) | G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2; measured by Cavendish experiment. |\n| g (acceleration due to gravity) | Acceleration of a freely falling body near Earth's surface:  |\n| Weight | Gravitational force on an object: W = mg. SI unit: Newton. W |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Gravitation_0.png"
       }
     ]
   },
@@ -4571,8 +4571,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Fluids Change of pressure",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Pressure | Force per unit area: P = F/A. SI unit: Pascal (Pa = N/m\u00b2). |\n| Fluid Pressure at Depth | P = \u03c1gh \u2014 pressure increases with depth h, density \u03c1, and gr |\n| Pascal's Law | Pressure applied to a confined fluid is transmitted unchange |\n| Hydraulic Press | Uses Pascal's Law: small force on small piston creates large |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Fluids_Change_of_pressure_with_depth_Transmission_of_pressure_in_liquids_0.png"
       }
     ]
   },
@@ -4602,8 +4602,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Atmospheric pressure",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Atmospheric Pressure | Pressure exerted by the atmosphere at sea level \u2248 1 atm = 10 |\n| Barometer | Instrument for measuring atmospheric pressure; invented by T |\n| Torricelli Vacuum | The vacuum above mercury in a barometer (no air \u2192 no pressur |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Atmospheric_pressure_0.png"
       }
     ]
   },
@@ -4633,8 +4633,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Laws of Motion Buoyancy Archimedes Princ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Buoyant Force | Upward force on a submerged object = weight of fluid displac |\n| Archimedes' Principle | When a body is fully or partially submerged in a fluid, the  |\n| Apparent Weight | Weight of object in fluid = actual weight \u2013 buoyant force. O |\n| Relative Density | RD = density of substance / density of water. If RD < 1 \u2192 fl |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Laws_of_Motion_Buoyancy_Archimedes_Principle_0.png"
       }
     ]
   },
@@ -4664,8 +4664,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat and Energy Concepts of heat and tem",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Heat (Q) | Thermal energy transferred from hotter to cooler object due  |\n| Temperature (T) | Measure of average kinetic energy of particles. SI unit: Kel |\n| Specific Heat Capacity (c) | Heat required to raise temperature of 1 kg of substance by 1 |\n| Thermal Capacity | Heat needed to raise temperature of a given body by 1 K = m  |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Heat_and_Energy_Concepts_of_heat_and_temperature_0.png"
       }
     ]
   },
@@ -4695,8 +4695,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat and Energy Anomalous expansion of w",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Anomalous Expansion | Water expands on cooling from 4\u00b0C to 0\u00b0C. Maximum density of |\n| Thermal Expansion | Most substances expand on heating and contract on cooling. S |\n| Coefficient of Linear Expansion (\u03b1) | Fractional change in length per degree Celsius change. \u0394L =  |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Heat_and_Energy_Anomalous_expansion_of_water_0.png"
       }
     ]
   },
@@ -4726,8 +4726,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat and Energy Thermometers",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Clinical Thermometer | Measures human body temperature (35\u00b0C\u201342\u00b0C); has a constrict |\n| Laboratory Thermometer | Measures wider range (\u201310\u00b0C to 110\u00b0C); no constriction; must |\n| Fixed Points | Ice point (0\u00b0C): temperature of pure ice at normal pressure. |\n| Thermocouple | Uses voltage produced at junctions of two different metals t |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Heat_and_Energy_Thermometers_0.png"
       }
     ]
   },
@@ -4757,8 +4757,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat and Energy Energy sources",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Fossil Fuels | Coal, oil, natural gas \u2014 formed from ancient organic matter. |\n| Renewable Energy | Replenished naturally: solar, wind, hydro, tidal, geothermal |\n| Solar Energy | Energy from the Sun; captured by solar panels (photovoltaic) |\n| Nuclear Energy | Released in fission (splitting heavy nuclei) or fusion (comb |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Heat_and_Energy_Energy_sources_0.png"
       }
     ]
   },
@@ -4788,8 +4788,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light Reflection of light",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Normal | A line perpendicular to the reflecting surface at the point  |\n| Angle of Incidence (i) | Angle between the incident ray and the normal at the point o |\n| Angle of Reflection (r) | Angle between the reflected ray and the normal. |\n| Regular Reflection | From a smooth surface: parallel incident rays reflect as par |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Light_Reflection_of_light_0.png"
       }
     ]
   },
@@ -4819,8 +4819,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light Spherical mirrors",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Concave Mirror | Reflecting surface is on the hollow side; converges reflecte |\n| Convex Mirror | Reflecting surface is on the bulging side; diverges reflecte |\n| Focal Length (f) | Distance from the pole (centre of mirror) to the focus (F).  |\n| Mirror Formula | 1/f = 1/v + 1/u. Using the New Cartesian sign convention. |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Light_Spherical_mirrors_0.png"
       }
     ]
   },
@@ -4850,8 +4850,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Sound Nature of Sound waves",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Longitudinal Wave | Wave where particle vibration is along the direction of wave |\n| Compression | Region where particles are pushed closer together \u2014 high pre |\n| Rarefaction | Region where particles are spread farther apart \u2014 low pressu |\n| Frequency (f) | Number of vibrations per second. SI unit: Hertz (Hz). |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Sound_Nature_of_Sound_waves_0.png"
       }
     ]
   },
@@ -4881,8 +4881,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Sound Range of hearing ultrasound a few ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Audible Range | 20 Hz to 20,000 Hz (20 kHz) \u2014 the frequency range humans can |\n| Infrasound | Frequency below 20 Hz \u2014 inaudible to humans; produced by ear |\n| Ultrasound | Frequency above 20,000 Hz \u2014 inaudible to humans; used by bat |\n| SONAR | Sound Navigation And Ranging \u2014 uses ultrasound to detect und |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Sound_Range_of_hearing_ultrasound_a_few_applications_0.png"
       }
     ]
   },
@@ -4912,8 +4912,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Static electri",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Electric Charge | A property of matter. Two types: positive (+, proton) and ne |\n| Charging by Friction | When two different materials are rubbed, electrons transfer  |\n| Coulomb's Law | Force between two point charges: F = kq\u2081q\u2082/r\u00b2. Like charges  |\n| Electric Field | Region around a charge where another charge experiences a fo |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Electricity_and_Magnetism_Static_electricity_0.png"
       }
     ]
   },
@@ -4943,8 +4943,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Current Electr",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Electric Current (I) | I = Q/t. Rate of flow of charge. SI unit: Ampere (A). Conven |\n| Potential Difference (V) | V = W/Q. Energy per unit charge. SI unit: Volt (V). Drives c |\n| Resistance (R) | Opposition to current flow. R = V/I. SI unit: Ohm (\u03a9). Depen |\n| Ohm's Law | V = IR at constant temperature; current is proportional to p |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Electricity_and_Magnetism_Current_Electricity_0.png"
       }
     ]
   },
@@ -5005,8 +5005,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Induced magnet",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Induced Magnetism | When a piece of soft iron is placed near or in a magnetic fi |\n| Soft Iron | Easily magnetised and demagnetised \u2014 ideal for electromagnet |\n| Hard Steel | Difficult to magnetise, but retains magnetism \u2014 ideal for pe |\n| Electromagnet | Coil of wire wound around a soft iron core; behaves as a mag |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Electricity_and_Magnetism_Induced_magnetism_0.png"
       }
     ]
   },
@@ -5036,8 +5036,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Lines of magne",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Magnetic Field Lines | Continuous closed loops showing the path a free N pole would |\n| Uniform Magnetic Field | Represented by equally spaced, parallel field lines \u2014 found  |\n| Field of a Solenoid | Uniform and strong inside; similar to a bar magnet outside;  |\n| Right-Hand Grip Rule | Curl fingers of right hand in the direction of current in th |"
+        "type": "image",
+        "content": "/diagrams/9/physics/Electricity_and_Magnetism_Lines_of_magnetic_field_0.png"
       }
     ]
   },
@@ -5067,8 +5067,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Language of Chemistry Symbol of an e",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Chemical Symbol | One or two letter abbreviation for an element. First letter  |\n| Common Symbols | H (hydrogen), O (oxygen), N (nitrogen), C (carbon), Na (sodi |\n| Origin of Symbols | Most from English name; some from Latin: Na (natrium), K (ka |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Language_of_Chemistry_Symbol_of_an_element_0.png"
       }
     ]
   },
@@ -5098,8 +5098,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Language of Chemistry Valency",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Valency | The number of hydrogen atoms that can combine with, or be re |\n| Electrovalency | Valency in ionic compounds \u2014 number of electrons gained or l |\n| Covalency | Valency in covalent compounds \u2014 number of electron pairs sha |\n| Variable Valency | Some elements show more than one valency: Fe (2+ and 3+), Cu |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Language_of_Chemistry_Valency_0.png"
       }
     ]
   },
@@ -5129,8 +5129,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Language of Chemistry Formulae of ra",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Radical (Ion) | An atom or group of atoms carrying a charge that retains its |\n| Cation | Positively charged ion: Na\u207a, Ca\u00b2\u207a, Fe\u00b3\u207a, NH\u2084\u207a. |\n| Anion | Negatively charged ion: Cl\u207b, SO\u2084\u00b2\u207b, PO\u2084\u00b3\u207b, OH\u207b, NO\u2083\u207b, CO\u2083\u00b2\u207b. |\n| Cross-multiplication Rule | The valency of the cation becomes the subscript of the anion |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Language_of_Chemistry_Formulae_of_radicals_and_compounds_0.png"
       }
     ]
   },
@@ -5160,8 +5160,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Language of Chemistry Balancing of s",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Balanced Equation | Reactants and products have the same number of each type of  |\n| Stoichiometric Coefficient | Number written before a formula to indicate how many formula |\n| State Symbols | (s) solid, (l) liquid, (g) gas, (aq) aqueous; included in fu |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Language_of_Chemistry_Balancing_of_simple_chemical_equations_0.png"
       }
     ]
   },
@@ -5191,8 +5191,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Chemical Changes and Reactions Types of ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Combination Reaction | A + B \u2192 AB. Two or more reactants form a single product. E.g |\n| Decomposition Reaction | AB \u2192 A + B. One compound splits into simpler products. E.g., |\n| Displacement Reaction | A more reactive element displaces a less reactive one from i |\n| Double Decomposition | Two compounds exchange ions to form two new compounds: BaCl\u2082 |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Chemical_Changes_and_Reactions_Types_of_chemical_changes_0.png"
       }
     ]
   },
@@ -5222,8 +5222,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Chemical Changes and Reactions Energy ch",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Exothermic Reaction | Releases energy (heat, light, sound) to surroundings. Produc |\n| Endothermic Reaction | Absorbs energy from surroundings. Products are less stable ( |\n| Activation Energy | Minimum energy required to start a chemical reaction; even e |\n| Catalyst | Substance that increases reaction rate without being consume |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Chemical_Changes_and_Reactions_Energy_changes_in_a_chemical_change_0.png"
       }
     ]
   },
@@ -5284,8 +5284,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Water Water Pollution",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Sewage | Domestic wastewater containing human waste, food particles,  |\n| Industrial Effluents | Toxic chemicals, heavy metals (Hg, Pb, Cd), acids, and dyes  |\n| Agricultural Runoff | Pesticides (DDT) and fertilisers (nitrogen, phosphorus) wash |\n| Eutrophication | Excess nutrients \u2192 algal bloom \u2192 algae die \u2192 decomposition d |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Water_Water_Pollution_0.png"
       }
     ]
   },
@@ -5315,8 +5315,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Water Treatment of Water Pollution",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Sewage Treatment Plant (STP) | Treats domestic wastewater in three stages: primary (physica |\n| Sedimentation | Allowing suspended particles to settle under gravity; first  |\n| Coagulation | Adding alum (Al\u2082SO\u2084) to make small particles clump (floccula |\n| Chlorination | Adding chlorine to kill bacteria and viruses in water; makes |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Water_Treatment_of_Water_Pollution_0.png"
       }
     ]
   },
@@ -5346,8 +5346,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Atomic Structure and Chemical Bonding St",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Atomic Number (Z) | Number of protons in nucleus; unique for each element; equal |\n| Mass Number (A) | A = protons + neutrons. The number of neutrons = A \u2013 Z. |\n| Isotopes | Atoms of the same element with the same Z but different A (d |\n| Electronic Configuration | Arrangement of electrons in shells: K(max 2), L(max 8), M(ma |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Atomic_Structure_and_Chemical_Bonding_Structure_of_an_Atom_mass_number_and_atomic_number_0.png"
       }
     ]
   },
@@ -5377,8 +5377,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Atomic Structure and Chemical Bonding El",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Ionic (Electrovalent) Bond | Complete transfer of electrons from metal to non-metal; crea |\n| Covalent Bond | Sharing of electron pairs between two atoms (usually non-met |\n| Single Bond | One pair of electrons shared: H:H (H\u2013H). |\n| Double Bond | Two pairs shared: O::O (O=O). |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Atomic_Structure_and_Chemical_Bonding_Electrovalent_and_covalent_bonding_0.png"
       }
     ]
   },
@@ -5408,8 +5408,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Periodic Table Dobereiners Triads Ne",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| D\u00f6bereiner's Triads | Groups of three elements with the middle element's atomic ma |\n| Newlands' Law of Octaves | Every 8th element has similar properties to the first \u2014 like |\n| Mendeleev's Periodic Law | Properties of elements are a periodic function of their atom |\n| Mendeleev's Achievements | Left gaps for undiscovered elements; predicted properties of |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Periodic_Table_Dobereiners_Triads_Newlands_law_of_Octaves_Mendeleevs_contributions_0.png"
       }
     ]
   },
@@ -5439,8 +5439,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Periodic Table Modern Periodic Law T",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Modern Periodic Law | Properties of elements are a periodic function of their atom |\n| Periods (Rows) | 7 horizontal rows; elements in a period have the same number |\n| Groups (Columns) | 18 vertical columns (groups); elements in a group have the s |\n| Periodic Trends | Atomic radius, ionisation energy, metallic character, electr |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Periodic_Table_Modern_Periodic_Law_The_Modern_Periodic_Table_groups_and_periods_0.png"
       }
     ]
   },
@@ -5470,8 +5470,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Periodic Table Study of the First El",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Lab Preparation | Zinc + dilute sulphuric acid: Zn + H\u2082SO\u2084 \u2192 ZnSO\u2084 + H\u2082\u2191. Coll |\n| Physical Properties | Colourless, odourless, tasteless, lightest known gas (densit |\n| Reducing Nature | Hydrogen reduces metal oxides: CuO + H\u2082 \u2192 Cu + H\u2082O; used in  |\n| Test for Hydrogen | Burns with a pop sound when a burning splint is brought near |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Periodic_Table_Study_of_the_First_Element_-_Hydrogen_0.png"
       }
     ]
   },
@@ -5501,8 +5501,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: The Periodic Table Hydrogen from water d",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| From Dilute Acids | Active metals (Zn, Mg, Fe) react with dilute HCl or H\u2082SO\u2084 to |\n| From Water | Very reactive metals (Na, K) react with cold water; less rea |\n| From Alkalis | Amphoteric metals (Zn, Al) react with NaOH solution to produ |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/The_Periodic_Table_Hydrogen_from_water_dilute_acids_alkalies_0.png"
       }
     ]
   },
@@ -5532,8 +5532,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Study of Gas Laws The behaviour of gases",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Boyle's Law | At constant temperature, the volume of a fixed mass of gas i |\n| Charles' Law | At constant pressure, the volume of a fixed mass of gas is d |\n| Gay-Lussac's Law | At constant volume, the pressure of a fixed mass of gas is d |\n| Ideal Gas | A hypothetical gas that perfectly obeys all gas laws; real g |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Study_of_Gas_Laws_The_behaviour_of_gases_under_changes_of_temperature_and_pressure_0.png"
       }
     ]
   },
@@ -5563,8 +5563,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Study of Gas Laws Relationship between K",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Absolute Zero (0 K) | The lowest possible temperature (\u2013273.15\u00b0C); theoretical sta |\n| Kelvin Scale | SI unit of temperature; K = \u00b0C + 273.15. No negative tempera |\n| Celsius Scale | Based on ice point (0\u00b0C) and steam point (100\u00b0C) at 1 atm; m |\n| Why Kelvin for Gas Laws | Gas volume is proportional to absolute temperature (Kelvin), |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Study_of_Gas_Laws_Relationship_between_Kelvin_scale_and_Celsius_Scale_of_temperature_0.png"
       }
     ]
   },
@@ -5594,8 +5594,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Atmospheric Pollution Acid rain - compos",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Acid Rain | Rain with pH < 5.6; normal rain has pH ~5.6 (slightly acidic |\n| Causes | SO\u2082 from coal-burning power plants and NO\u2093 from vehicles and |\n| Sulphurous/Sulphuric acid | SO\u2082 + H\u2082O \u2192 H\u2082SO\u2083; SO\u2083 + H\u2082O \u2192 H\u2082SO\u2084 \u2014 major components of a |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Atmospheric_Pollution_Acid_rain_-_composition_cause_and_its_impact_0.png"
       }
     ]
   },
@@ -5625,8 +5625,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Atmospheric Pollution Global warming",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Greenhouse Effect | Natural process where greenhouse gases (CO\u2082, CH\u2084, H\u2082O vapour |\n| Enhanced Greenhouse Effect | Human activities (burning fossil fuels, deforestation) incre |\n| Global Warming | Rise in Earth's average surface temperature due to increased |\n| Carbon Dioxide (CO\u2082) | The most important anthropogenic GHG; emitted by burning coa |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Atmospheric_Pollution_Global_warming_0.png"
       }
     ]
   },
@@ -5656,8 +5656,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Atmospheric Pollution Ozone depletion",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Ozone (O\u2083) | A molecule of three oxygen atoms; absorbs UV radiation in th |\n| Ozone Hole | Region of significantly depleted ozone, mainly over Antarcti |\n| CFCs (Chlorofluorocarbons) | Synthetic compounds used as refrigerants and aerosol propell |\n| Montreal Protocol | International treaty (1987) to phase out ozone-depleting sub |"
+        "type": "image",
+        "content": "/diagrams/9/chemistry/Atmospheric_Pollution_Ozone_depletion_0.png"
       }
     ]
   },
@@ -7671,8 +7671,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Commercial Mathematics Complete Unit",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Recurring Deposit (RD) | Fixed monthly deposit for a set period. Maturity value = P \u00d7 |\n| Shares and Dividends | Face value (FV): printed value of share. Market value (MV):  |\n| GST (Goods and Services Tax) | Indirect tax. CGST + SGST = GST (intrastate); IGST = GST (in |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Commercial_Mathematics_Complete_Unit_0.png"
       }
     ]
   },
@@ -7702,8 +7702,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 1 Linear Inequations",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Inequation | A statement with <, >, \u2264, \u2265 instead of = . Solved algebraica |\n| Solution Set | The set of all values satisfying the inequation. Represented |\n| Double Inequation | Two simultaneous inequations solved separately; intersection |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_1_Linear_Inequations_0.png"
       }
     ]
   },
@@ -7733,8 +7733,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 1 Quadratic Equations in on",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Factorisation Method | Express ax\u00b2 + bx + c as product of two linear factors: (px + |\n| Quadratic Formula | x = (\u2212b \u00b1 \u221a(b\u00b2\u22124ac)) / (2a). Always applicable when factoris |\n| Discriminant (D) | D = b\u00b2 \u2212 4ac. D > 0: two distinct real roots; D = 0: two equ |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_1_Quadratic_Equations_in_one_variable_0.png"
       }
     ]
   },
@@ -7764,8 +7764,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 1 Ratio and Proportion",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Proportion | a:b = c:d \u27fa ad = bc (cross multiplication). a and d are extr |\n| Componendo and Dividendo | If a/b = c/d, then (a+b)/(a\u2212b) = (c+d)/(c\u2212d). Used to simpli |\n| k-method | If a/b = c/d = e/f = k, then each ratio = k. Useful for prov |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_1_Ratio_and_Proportion_0.png"
       }
     ]
   },
@@ -7795,8 +7795,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 1 Factorisation of polynomi",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Remainder Theorem | When p(x) is divided by (x \u2212 a), the remainder = p(a). No lo |\n| Factor Theorem | If p(a) = 0, then (x \u2212 a) is a factor of p(x). Converse: if  |\n| Synthetic Division / Long Division | Used to divide polynomial by a linear factor once a root is  |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_1_Factorisation_of_polynomials_0.png"
       }
     ]
   },
@@ -7826,8 +7826,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 1 Matrices",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Matrix Order | A matrix with m rows and n columns has order m \u00d7 n. Element  |\n| Matrix Addition/Subtraction | Possible only if matrices have the same order. Add correspon |\n| Matrix Multiplication | A (m\u00d7n) \u00d7 B (n\u00d7p) = C (m\u00d7p). c\u1d62\u2c7c = sum of products of row i  |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_1_Matrices_0.png"
       }
     ]
   },
@@ -7857,8 +7857,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 1 Arithmetic Progression",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Common Difference (d) | d = a\u2082 \u2212 a\u2081 = a\u2083 \u2212 a\u2082 = ... constant for all consecutive ter |\n| nth Term (T\u2099) | T\u2099 = a + (n\u22121)d, where a = first term, n = position. Used to |\n| Sum of n Terms (S\u2099) | S\u2099 = n/2 \u00d7 (2a + (n\u22121)d) = n/2 \u00d7 (first term + last term). |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_1_Arithmetic_Progression_0.png"
       }
     ]
   },
@@ -7888,8 +7888,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Similarity",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Similar Triangles | Triangles with equal corresponding angles and proportional c |\n| Criteria for Similarity | AA (Angle-Angle): two pairs of equal angles. SAS (Side-Angle |\n| Basic Proportionality Theorem (BPT) | If a line is drawn parallel to one side of a triangle, it di |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Geometry_Similarity_0.png"
       }
     ]
   },
@@ -7919,8 +7919,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Algebra Part 2 Coordinate Geometry",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Distance Formula | Distance between (x\u2081,y\u2081) and (x\u2082,y\u2082) = \u221a[(x\u2082\u2212x\u2081)\u00b2 + (y\u2082\u2212y\u2081)\u00b2 |\n| Section Formula | Point dividing line segment joining (x\u2081,y\u2081) and (x\u2082,y\u2082) in r |\n| Slope (m) | m = (y\u2082\u2212y\u2081)/(x\u2082\u2212x\u2081) = tan \u03b8 where \u03b8 is angle with positive x |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Algebra_Part_2_Coordinate_Geometry_0.png"
       }
     ]
   },
@@ -7950,8 +7950,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Geometry Part 2 Circles",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Tangent | A line touching the circle at exactly one point. Tangent \u22a5 r |\n| Angle in a Semicircle | Angle in a semicircle = 90\u00b0. (Angle subtended by diameter at |\n| Cyclic Quadrilateral | A quadrilateral with all four vertices on a circle. Opposite |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Geometry_Part_2_Circles_0.png"
       }
     ]
   },
@@ -7981,8 +7981,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Mensuration Complete Unit",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Cylinder | Curved Surface Area = 2\u03c0rh. Total Surface Area = 2\u03c0r(h+r). V |\n| Cone | Slant height l = \u221a(r\u00b2 + h\u00b2). CSA = \u03c0rl. TSA = \u03c0r(l+r). Volum |\n| Sphere and Hemisphere | Sphere: SA = 4\u03c0r\u00b2. V = (4/3)\u03c0r\u00b3. Hemisphere: CSA = 2\u03c0r\u00b2. TSA |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Mensuration_Complete_Unit_0.png"
       }
     ]
   },
@@ -8012,8 +8012,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Trigonometry Complete Unit",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Trigonometric Ratios | sin \u03b8, cos \u03b8, tan \u03b8, cosec \u03b8, sec \u03b8, cot \u03b8 and their recipro |\n| Complementary Angles | sin \u03b8 = cos(90\u00b0\u2212\u03b8); tan \u03b8 = cot(90\u00b0\u2212\u03b8); sec \u03b8 = cosec(90\u00b0\u2212\u03b8) |\n| Heights and Distances | Angle of elevation: looking up to an object. Angle of depres |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Trigonometry_Complete_Unit_0.png"
       }
     ]
   },
@@ -8043,8 +8043,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Statistics Complete Unit",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Mean (Grouped Data) | Mean = \u03a3fx / \u03a3f, where x = class midpoint. Or use assumed me |\n| Median (Grouped Data) | Locate the median class (where cumulative frequency \u2265 N/2 fi |\n| Ogive (Cumulative Frequency Curve) | Plot upper class boundaries against cumulative frequencies.  |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Statistics_Complete_Unit_0.png"
       }
     ]
   },
@@ -8074,8 +8074,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Probability Complete Unit",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Sample Space (S) | The set of all possible outcomes of an experiment. For a coi |\n| Theoretical Probability | P(E) = Number of favourable outcomes / Total number of equal |\n| Complementary Events | P(E) + P(E') = 1. If P(getting a six) = 1/6, then P(not gett |"
+        "type": "image",
+        "content": "/diagrams/10/mathematics/Probability_Complete_Unit_0.png"
       }
     ]
   },
@@ -8105,8 +8105,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Force Work Power and Energy Uniform Circ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Centripetal Acceleration | Acceleration directed toward the centre of the circle: a = v |\n| Centripetal Force | Net force providing centripetal acceleration: F = mv\u00b2/r = m\u03c9 |\n| Angular Velocity (\u03c9) | \u03c9 = 2\u03c0/T = 2\u03c0f, where T = period, f = frequency. Relates to  |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Force_Work_Power_and_Energy_Uniform_Circular_Motion_0.png"
       }
     ]
   },
@@ -8136,8 +8136,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Force Work Power and Energy Turning Forc",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Moment of Force (Torque) | Moment = Force \u00d7 perpendicular distance from pivot. Unit: N\u00b7 |\n| Principle of Moments | For a body in equilibrium: sum of clockwise moments = sum of |\n| Couple | Two equal, opposite, and parallel forces not acting along th |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Force_Work_Power_and_Energy_Turning_Forces_Moment_of_Force_0.png"
       }
     ]
   },
@@ -8167,8 +8167,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Force Work Power and Energy Gravity and ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Universal Gravitation | F = Gm\u2081m\u2082/r\u00b2, where G = 6.67\u00d710\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2. Acts along the  |\n| Acceleration due to Gravity (g) | g = GM/R\u00b2 at Earth's surface. g \u2248 9.8 m/s\u00b2. Varies with alti |\n| Weight vs Mass | Mass: amount of matter, constant everywhere (kg). Weight: gr |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Force_Work_Power_and_Energy_Gravity_and_Gravitation_0.png"
       }
     ]
   },
@@ -8198,8 +8198,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Force Work Power and Energy Work Energy ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Work | W = F \u00d7 d \u00d7 cos \u03b8, where \u03b8 is angle between force and displa |\n| Kinetic Energy (KE) | Energy of motion: KE = \u00bdmv\u00b2. Unit: J. Work-Energy Theorem: N |\n| Potential Energy (PE) | Gravitational PE = mgh. Elastic PE = \u00bdkx\u00b2. Stored energy due |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Force_Work_Power_and_Energy_Work_Energy_and_Power_0.png"
       }
     ]
   },
@@ -8229,8 +8229,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Force Work Power and Energy Machines Lev",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Mechanical Advantage (MA) | MA = Load / Effort. How many times the machine multiplies th |\n| Velocity Ratio (VR) | VR = Distance moved by effort / Distance moved by load. Depe |\n| Efficiency (\u03b7) | \u03b7 = (MA/VR) \u00d7 100% = (useful work output / work input) \u00d7 100 |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Force_Work_Power_and_Energy_Machines_Lever_Pulley_Inclined_Plane_0.png"
       }
     ]
   },
@@ -8260,8 +8260,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Force Work Power and Energy Conservation",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Forms of Energy | Mechanical (KE + PE), heat, light, sound, electrical, chemic |\n| Conservation Law | In an isolated system: Total energy (initial) = Total energy |\n| Energy Degradation | While total energy is conserved, useful energy decreases due |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Force_Work_Power_and_Energy_Conservation_of_Energy_0.png"
       }
     ]
   },
@@ -8291,8 +8291,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light Refraction of Light",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Refractive Index (n) | n = speed of light in vacuum / speed of light in medium = c/ |\n| Snell's Law | n\u2081 sin i = n\u2082 sin r. At interface of two media, the ratio of |\n| Optical Density | A medium with higher n is optically denser. Light bends towa |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Light_Refraction_of_Light_0.png"
       }
     ]
   },
@@ -8322,8 +8322,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light Refraction through Glass Slabs and",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Lateral Displacement | Perpendicular shift of emerging ray from incident ray when p |\n| Dispersion | White light splits into VIBGYOR (violet, indigo, blue, green |\n| Angle of Deviation (\u03b4) | Angle between the original incident ray and the emergent ray |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Light_Refraction_through_Glass_Slabs_and_Prisms_0.png"
       }
     ]
   },
@@ -8353,8 +8353,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light Total Internal Reflection and Crit",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Critical Angle (C) | The angle of incidence in the denser medium at which the ang |\n| Total Internal Reflection | Light must travel from denser to rarer medium. Angle of inci |\n| Optical Fibre | Thin glass fibre where light travels by successive TIR along |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Light_Total_Internal_Reflection_and_Critical_Angle_0.png"
       }
     ]
   },
@@ -8384,8 +8384,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light Lenses Convex and Concave",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Focal Length (f) | Convex lens: f is positive; principal focus is where paralle |\n| Lens Formula | 1/v \u2212 1/u = 1/f, where v = image distance, u = object distan |\n| Power of Lens (P) | P = 1/f (in metres). Unit: dioptre (D). Convex lens: P > 0.  |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Light_Lenses_Convex_and_Concave_0.png"
       }
     ]
   },
@@ -8415,8 +8415,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Light The Electromagnetic Spectrum",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| EM Wave Properties | Transverse waves; travel at c in vacuum; no medium needed. C |\n| Spectrum Order | Increasing frequency (decreasing wavelength): Radio \u2192 Microw |\n| Visible Spectrum | Wavelength: 400 nm (violet) to 700 nm (red). Narrow band wit |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Light_The_Electromagnetic_Spectrum_0.png"
       }
     ]
   },
@@ -8446,8 +8446,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Sound Reflection of Sound Waves and Echo",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Echo | A distinct repetition of sound due to reflection. For a dist |\n| Reverberation | Persistence of sound after the source stops, due to multiple |\n| SONAR | Sound Navigation and Ranging. Uses ultrasound to detect unde |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Sound_Reflection_of_Sound_Waves_and_Echoes_0.png"
       }
     ]
   },
@@ -8477,8 +8477,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Sound Natural Damped and Forced Vibratio",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Natural (Free) Vibrations | Vibrations at the body's own natural frequency when displace |\n| Damped Vibrations | Vibrations where amplitude decreases due to energy loss (fri |\n| Forced Vibrations | When an external periodic force is applied at any frequency  |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Sound_Natural_Damped_and_Forced_Vibrations_0.png"
       }
     ]
   },
@@ -8508,8 +8508,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Sound Resonance",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Resonance Condition | Driving frequency = Natural frequency of the body. At resona |\n| Resonance in Strings | Strings vibrate at frequencies f = n/(2L) \u00d7 \u221a(T/\u03bc), where n  |\n| Resonance Column | Air column in a tube resonates when its length is odd multip |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Sound_Resonance_0.png"
       }
     ]
   },
@@ -8539,8 +8539,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Sound Loudness Pitch and Quality of Soun",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Loudness | Subjective measure of sound intensity. Measured in decibels  |\n| Pitch | How high or low a sound feels \u2014 determined by frequency. Hig |\n| Quality (Timbre) | The characteristic that distinguishes two sounds of same lou |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Sound_Loudness_Pitch_and_Quality_of_Sound_0.png"
       }
     ]
   },
@@ -8570,8 +8570,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Ohms Law and R",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Ohm's Law | V = IR (V in volts, I in amperes, R in ohms). Valid for ohmi |\n| Resistivity (\u03c1) | Material property: R = \u03c1L/A, where L = length, A = cross-sec |\n| Series and Parallel Combinations | Series: R_total = R\u2081 + R\u2082 + ... (same current, voltages add) |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Electricity_and_Magnetism_Ohms_Law_and_Resistance_0.png"
       }
     ]
   },
@@ -8601,8 +8601,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Electrical Pow",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Electrical Power | P = VI = I\u00b2R = V\u00b2/R. Unit: Watt (W). Measures how fast elect |\n| Joule's Law of Heating | Heat produced H = I\u00b2Rt (joules). More current, more resistan |\n| Electrical Energy | E = Pt = VIt. Commercial unit: 1 kWh = 1 unit = 3.6 \u00d7 10\u2076 J. |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Electricity_and_Magnetism_Electrical_Power_and_Energy_0.png"
       }
     ]
   },
@@ -8632,8 +8632,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Household Elec",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Live, Neutral, Earth | Live wire (L): carries current at 230V (brown). Neutral (N): |\n| Fuse and MCB | Fuse: melts when current exceeds rated value. MCB (Miniature |\n| Earthing | Metal casings of appliances connected to earth. If live wire |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Electricity_and_Magnetism_Household_Electric_Circuits_0.png"
       }
     ]
   },
@@ -8663,8 +8663,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Electricity and Magnetism Magnetic Effec",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Oersted's Discovery | Electric current produces a magnetic field. A compass needle |\n| Electromagnet | Coil of wire (solenoid) with iron core \u2014 current magnetises  |\n| Electromagnetic Induction | Changing magnetic flux through a coil induces an EMF (Farada |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Electricity_and_Magnetism_Magnetic_Effect_of_Current_Electromagnetism_0.png"
       }
     ]
   },
@@ -8694,8 +8694,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat Latent Heat",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Latent Heat of Fusion (Lf) | Heat needed to melt 1 kg of solid at its melting point. For  |\n| Latent Heat of Vaporisation (Lv) | Heat needed to vaporise 1 kg of liquid at its boiling point. |\n| Cooling Effect of Evaporation | Evaporation takes latent heat from surroundings \u2014 feels cool |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Heat_Latent_Heat_0.png"
       }
     ]
   },
@@ -8725,8 +8725,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat Specific Heat Capacity and Calorime",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Specific Heat Capacity (c) | c = Q/(m\u0394T). Unit: J/(kg\u00b7\u00b0C) or J/(kg\u00b7K). Water has high c ( |\n| Heat Capacity (C) | C = mc. Heat capacity of an object = mass \u00d7 specific heat. U |\n| Principle of Calorimetry | Heat lost = Heat gained (no heat exchange with surroundings) |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Heat_Specific_Heat_Capacity_and_Calorimetry_0.png"
       }
     ]
   },
@@ -8756,8 +8756,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Heat Loss and Gain of Heat",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Conduction | Heat transfer through direct contact without bulk movement o |\n| Convection | Heat transfer through movement of fluid (liquid or gas). Hot |\n| Radiation | Heat transfer as EM waves (infrared); no medium needed. All  |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Heat_Loss_and_Gain_of_Heat_0.png"
       }
     ]
   },
@@ -8787,8 +8787,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Modern Physics Radioactivity Alpha Beta ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Alpha (\u03b1) Radiation | Helium nucleus (2p + 2n, charge +2, mass 4). Least penetrati |\n| Beta (\u03b2) Radiation | High-speed electron (charge \u22121, negligible mass). Moderate p |\n| Gamma (\u03b3) Radiation | High-energy electromagnetic waves (no charge, no mass). Most |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Modern_Physics_Radioactivity_Alpha_Beta_Gamma_0.png"
       }
     ]
   },
@@ -8818,8 +8818,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Modern Physics Nuclear Energy Fission an",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Nuclear Fission | A heavy nucleus (\u00b2\u00b3\u2075U) splits into two medium nuclei when st |\n| Nuclear Fusion | Light nuclei (deuterium + tritium) combine at very high temp |\n| Mass-Energy Equivalence | E = mc\u00b2. Mass defect (\u0394m) in nuclear reaction is converted t |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Modern_Physics_Nuclear_Energy_Fission_and_Fusion_0.png"
       }
     ]
   },
@@ -8849,8 +8849,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: Modern Physics Photocells and Modern App",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Photoelectric Effect | When light of sufficient frequency falls on a metal, electro |\n| Photocell (Photoelectric Cell) | Device using photoelectric effect: light hits photoemissive  |\n| Solar Cell (Photovoltaic Cell) | Semiconductor device (silicon p-n junction) that converts li |"
+        "type": "image",
+        "content": "/diagrams/10/physics/Modern_Physics_Photocells_and_Modern_Applications_0.png"
       }
     ]
   },
@@ -8880,8 +8880,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 1 Periodic Properties and Variations of ",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Periodic Law | Properties of elements are a periodic function of their atom |\n| Atomic Radius | Decreases across a period (more protons pull electrons close |\n| Ionisation Energy (IE) | Energy needed to remove the outermost electron from a gaseou |\n| Electronegativity | Tendency to attract bonding electrons. Increases across a pe |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/1_Periodic_Properties_and_Variations_of_Properties_0.png"
       }
     ]
   },
@@ -8913,8 +8913,8 @@
     "diagrams": [
       {
         "title": "Bond Types",
-        "type": "table",
-        "content": "| Type | Formed between | Example | Properties |\n|---|---|---|---|\n| Ionic | Metal + non-metal | NaCl | High MP, conducts when molten |\n| Covalent | Non-metal + non-metal | H\u2082O, CO\u2082 | Low MP (molecules), poor conductor |\n| Metallic | Metal atoms | Cu, Fe | Conducts, malleable |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/2_Chemical_Bonding_0.png"
       }
     ]
   },
@@ -8944,8 +8944,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 3 Study of Acids Bases and Salts",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Arrhenius Definition | Acid: produces H\u207a in water. Base: produces OH\u207b in water. Lim |\n| pH Scale | pH = \u2212log[H\u207a]. pH < 7: acidic. pH = 7: neutral. pH > 7: basi |\n| Neutralisation | Acid + Base \u2192 Salt + Water. Strong acid + Strong base: pH of |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/3_Study_of_Acids_Bases_and_Salts_0.png"
       }
     ]
   },
@@ -8975,8 +8975,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 4 Analytical Chemistry",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Cation Tests | Flame test identifies group I and II metals by characteristi |\n| Anion Tests | Cl\u207b: white ppt with AgNO\u2083 (soluble in NH\u2083). SO\u2084\u00b2\u207b: white ppt |\n| Confirmatory Tests | Each identified ion is confirmed with a specific reagent tha |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/4_Analytical_Chemistry_0.png"
       }
     ]
   },
@@ -9006,8 +9006,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 5 Mole Concept and Stoichiometry",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Mole | 1 mole of any substance contains 6.022\u00d710\u00b2\u00b3 (Avogadro's numb |\n| Molar Volume | At STP (0\u00b0C, 1 atm): 1 mole of any gas occupies 22.4 L. At R |\n| Stoichiometry | Using balanced equation molar ratios to find: moles of produ |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/5_Mole_Concept_and_Stoichiometry_0.png"
       }
     ]
   },
@@ -9037,8 +9037,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 6 Electrolysis",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Electrolyte | A substance that conducts electricity when dissolved or molt |\n| Faraday's First Law | Mass of substance deposited/liberated \u221d quantity of electric |\n| Faraday's Second Law | Mass deposited by same charge from different electrolytes \u221d  |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/6_Electrolysis_0.png"
       }
     ]
   },
@@ -9068,8 +9068,8 @@
     "diagrams": [
       {
         "title": "Metals and Extraction",
-        "type": "table",
-        "content": "| Metal | Ore | Method |\n|---|---|---|\n| Aluminium | Bauxite (Al\u2082O\u2083) | Electrolysis |\n| Iron | Haematite (Fe\u2082O\u2083) | Reduction with CO |\n| Copper | Chalcopyrite | Roasting + reduction |\n| Sodium | Rock salt (NaCl) | Electrolysis (molten) |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/7_Metallurgy_0.png"
       }
     ]
   },
@@ -9099,8 +9099,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 8 Study of Compounds",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Sulphuric Acid (H\u2082SO\u2084) | Prepared industrially by Contact Process: S\u2192SO\u2082\u2192SO\u2083\u2192H\u2082SO\u2084. O |\n| Ammonia (NH\u2083) | Prepared by Haber Process: N\u2082 + 3H\u2082 \u21cc 2NH\u2083 (450\u00b0C, 200 atm,  |\n| Nitric Acid (HNO\u2083) | Prepared by Ostwald's Process: NH\u2083 oxidised with O\u2082 on Pt/Rh |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/8_Study_of_Compounds_0.png"
       }
     ]
   },
@@ -9130,8 +9130,8 @@
     "diagrams": [
       {
         "title": "Key Concepts: 9 Organic Chemistry",
-        "type": "table",
-        "content": "| Term | Definition |\n|---|---|\n| Homologous Series | A series of organic compounds with the same functional group |\n| Functional Group | An atom or group of atoms responsible for the characteristic |\n| IUPAC Nomenclature | 1-Identify longest carbon chain (parent name). 2-Number from |"
+        "type": "image",
+        "content": "/diagrams/10/chemistry/9_Organic_Chemistry_0.png"
       }
     ]
   },

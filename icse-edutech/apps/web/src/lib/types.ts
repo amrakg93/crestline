@@ -44,7 +44,7 @@ export interface WorkedExample {
 
 export interface Diagram {
   title: string;
-  type: "ascii" | "table" | "steps";
+  type: "ascii" | "table" | "steps" | "image";
   content: string;
 }
 

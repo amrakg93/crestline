@@ -26,6 +26,15 @@ function parseMdTable(content: string) {
 }
 
 function DiagramView({ diag }: { diag: Diagram }) {
+  if (diag.type === "image") {
+    return (
+      <img
+        src={diag.content}
+        alt={diag.title}
+        className="w-full rounded-lg border border-surface-border"
+      />
+    );
+  }
   if (diag.type !== "table") {
     return (
       <pre className="text-xs text-muted font-mono whitespace-pre-wrap leading-relaxed bg-surface-hover rounded-lg p-3 overflow-x-auto">
