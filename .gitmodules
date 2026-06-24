@@ -1,0 +1,3 @@
+[submodule "icse-edutech/apps/web/public/diagrams"]
+	path = icse-edutech/apps/web/public/diagrams
+	url = https://github.com/amrakg93/icse-diagrams.git
