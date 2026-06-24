@@ -320,7 +320,7 @@ export default function GuidePage() {
 
           {/* Tips */}
           {guide.tips && guide.tips.length > 0 && (
-            <section className="mb-8">
+            <section id="tips" className="mb-8">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-9 h-9 rounded-xl bg-accent/15 flex items-center justify-center">
                   <Lightbulb className="w-5 h-5 text-accent" />

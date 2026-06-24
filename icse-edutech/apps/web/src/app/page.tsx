@@ -63,7 +63,7 @@ export default function LandingPage() {
           color="#a855f7"
           title="Expert Tips & Tricks"
           description="Time-saving shortcuts and common pitfalls — exactly what top students know that others don't."
-          href="/dashboard"
+          href="/guide/9/mathematics/Pure_Arithmetic_Rational_irrational_numbers_as_real_numbers#tips"
         />
         <FeatureCard
           icon={<Zap className="w-5 h-5" />}
