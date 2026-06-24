@@ -97,6 +97,9 @@ export default function DashboardPage() {
   const [error, setError] = useState<string | null>(null);
   const [progress, setProgress] = useState<LocalProgress | null>(null);
 
+  // Set page title
+  useEffect(() => { document.title = "Dashboard — Crestline"; }, []);
+
   // Load local progress on mount
   useEffect(() => {
     setProgress(loadProgress());

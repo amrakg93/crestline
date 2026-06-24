@@ -1,20 +1,16 @@
 "use client";
 
 import { Lightbulb, Clock } from "lucide-react";
-import type { GuideTip } from "@/lib/types";
-
 interface TipCardProps {
   title?: string;
   trick: string;
   timeSaved?: string;
-  tip?: GuideTip;
 }
 
-export default function TipCard({ title, trick, timeSaved, tip }: TipCardProps) {
-  // Support both direct props and tip object
-  const displayTitle = tip?.title || title || "Tip";
-  const displayTrick = tip?.trick || trick;
-  const displayTimeSaved = tip?.time_saved || timeSaved || "";
+export default function TipCard({ title, trick, timeSaved }: TipCardProps) {
+  const displayTitle = title || "Tip";
+  const displayTrick = trick;
+  const displayTimeSaved = timeSaved || "";
 
   // Color coding based on title keywords
   const isShortcut = displayTitle.toLowerCase().includes("shortcut") || displayTitle.toLowerCase().includes("speed");

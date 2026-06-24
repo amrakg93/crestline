@@ -9,18 +9,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  async rewrites() {
-    return [
-      {
-        source: "/api/backend/:path*",
-        destination: "http://localhost:4000/api/:path*",
-      },
-      {
-        source: "/api/graph/:path*",
-        destination: "http://localhost:4001/:path*",
-      },
-    ];
-  },
 };
 
 export default nextConfig;

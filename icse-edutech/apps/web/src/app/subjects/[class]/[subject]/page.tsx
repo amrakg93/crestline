@@ -55,6 +55,11 @@ export default function SubjectPage() {
   useEffect(() => { load(); }, [load]);
 
   const displayName = getSubjectDisplayName(subject);
+
+  useEffect(() => {
+    document.title = "Class " + classId + " " + displayName + " — Crestline";
+    return () => { document.title = "Crestline — Science & Maths for Secondary Students"; };
+  }, [classId, displayName]);
   const icon = getSubjectIcon(subject);
   const color = getSubjectColor(subject);
   const completedCount = completedIds.size;

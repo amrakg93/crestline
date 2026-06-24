@@ -156,6 +156,14 @@ export default function GuidePage() {
   }
 
   const displaySubject = getSubjectDisplayName(subject);
+
+  // Per-page title
+  useEffect(() => {
+    if (guide) {
+      document.title = guide.chapter.name + " — " + displaySubject + " — Crestline";
+    }
+    return () => { document.title = "Crestline — Science & Maths for Secondary Students"; };
+  }, [guide, displaySubject]);
   const chapterName = guide?.chapter?.name || chapterId.replace(/_/g, " ");
 
   const currentIdx = chapters.findIndex((c) => c.id === chapterId);
@@ -196,7 +204,7 @@ export default function GuidePage() {
       </div>
 
       {loading ? (
-        <LoadingSkeleton type="full" />
+        <LoadingSkeleton type="list" />
       ) : error ? (
         <ErrorState message={error} onRetry={() => window.location.reload()} />
       ) : guide ? (
