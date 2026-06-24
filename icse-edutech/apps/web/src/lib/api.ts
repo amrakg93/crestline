@@ -13,9 +13,8 @@ import type {
 const BACKEND_URL =
   process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
 
-// Syllabus and guide data is static — revalidate once per day
+// GET requests — no Content-Type header (avoids CORS preflight on cross-origin requests)
 const STATIC_FETCH: RequestInit = {
-  headers: { "Content-Type": "application/json" },
   next: { revalidate: 86400 },
 };
 
