@@ -1,0 +1,4 @@
+﻿# Ignore everything except icse-edutech
+/*
+!/icse-edutech/
+!.gitignore
