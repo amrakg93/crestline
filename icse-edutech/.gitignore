@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+*.exe
+graph-engine
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Test
+coverage/
+
+# Next.js generated
+apps/web/next-env.d.ts
+apps/web/tsconfig.tsbuildinfo
+
+# Working files / personal
+memory/
+TASKS.md
+WORKING_MEMORY.md
+
+# Downloads / tools
+*.zip
+go*.windows*
+
+# Generated HTML artifacts
+icse-edutech-*.html
+icse-syllabus-*.html
+dashboard.html
+
+# Data scratch
+data/
